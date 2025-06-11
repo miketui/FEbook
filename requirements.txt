@@ -1,0 +1,18 @@
+# Text processing and cleanup
+re # built-in regex module for text manipulation
+
+# Markdown processing
+markdown # convert markdown to HTML
+
+# HTML parsing and manipulation
+beautifulsoup4 # parse HTML/XML
+lxml # faster parser for BeautifulSoup
+
+# EPUB creation
+EbookLib # build EPUB files
+
+# Linting and code quality
+flake8 # code style checks
+
+# Testing framework
+pytest # run unit tests
