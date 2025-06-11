@@ -12,7 +12,8 @@ def compile_epub(output_path: Path, html_files: list[Path], metadata: dict):
 
     for html_file in html_files:
         chapter = epub.EpubHtml(title=html_file.stem, file_name=html_file.name)
-        chapter.content = html_file.read_text(encoding='utf-8')
+        # Use raw bytes to avoid lxml parser errors with XML declarations
+        chapter.content = html_file.read_bytes()
         book.add_item(chapter)
 
     book.toc = [epub.Link(f.name, f.stem, f.stem) for f in html_files]

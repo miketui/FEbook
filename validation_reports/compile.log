@@ -1,3 +1,5 @@
+EPUB written to output/test.epub
+=======
 Traceback (most recent call last):
   File "/workspace/FEbook/src/compile_epub.py", line 36, in <module>
     main()
@@ -27,3 +29,4 @@ Traceback (most recent call last):
   File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/lxml/html/__init__.py", line 738, in document_fromstring
     raise etree.ParserError(
 lxml.etree.ParserError: Document is empty
+
