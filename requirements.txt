@@ -1,5 +1,5 @@
 # Text processing and cleanup
-re # built-in regex module for text manipulation
+# re is a built-in Python module and should NOT be listed here.
 
 # Markdown processing
 markdown # convert markdown to HTML
