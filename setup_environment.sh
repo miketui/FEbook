@@ -1,25 +1,79 @@
 #!/bin/bash
-# Setup script for EPUB processing environment
+# Revised Setup script for EPUB processing environment
 
+# Exit immediately if a command exits with a non-zero status.
 set -e
 
-# Create directories
-mkdir -p src output temp validation_reports
+echo "----------------------------------------------------"
+echo "Starting EPUB Processing Environment Setup..."
+echo "----------------------------------------------------"
 
-# Install dependencies
+# 1. Create necessary project directories
+echo "1. Creating project directories: src, output, temp, validation_reports..."
+mkdir -p src output temp validation_reports
+echo "   Directories created/ensured."
+
+# 2. Install Python dependencies from requirements.txt
+echo "2. Installing Python dependencies from requirements.txt..."
 if [ -f requirements.txt ]; then
+    # Use 'pip3' for explicit Python 3, common in many environments
     pip install -r requirements.txt
+    echo "   Python dependencies installed successfully."
+else
+    echo "Error: requirements.txt not found in the current directory."
+    echo "Please ensure 'requirements.txt' exists with all necessary Python packages."
+    exit 1 # Exit if requirements.txt is missing
 fi
 
-# Placeholder commands for agent tasks
-# Example: python src/examine_content.py input/ > validation_reports/examine.log
+# 3. Check for essential external tools (e.g., pandoc, if used)
+#    Codex environments often have many tools pre-installed.
+#    You might need to check if pandoc is available or provide installation steps if it's not.
+echo "3. Checking for essential external tools..."
 
-cat <<'USAGE'
-Environment setup complete.
-Next steps:
-1. Place raw text or Markdown files into the input/ directory.
-2. Run python src/examine_content.py to generate an issues report.
-3. Apply corrections with python src/correct_content.py.
-4. Validate with python src/validate_files.py.
-5. Compile with python src/compile_epub.py.
-USAGE
+# Check for pandoc (highly recommended for robust Markdown to EPUB workflows)
+if ! command -v pandoc &> /dev/null
+then
+    echo "   Warning: 'pandoc' command not found."
+    echo "   'pandoc' is highly recommended for robust Markdown conversion."
+    echo "   Please install it manually if needed (e.g., 'sudo apt-get install pandoc' on Linux)."
+else
+    echo "   'pandoc' found: $(pandoc --version | head -n 1)"
+fi
+
+# You might also want to check for epubcheck, a crucial EPUB validator
+# epubcheck is a Java application. It's often run externally or manually.
+# For simplicity, we'll just inform the user if it's not explicitly installed here.
+# If you want to integrate it, you'd need Java installed and then download/run epubcheck.jar
+# if ! command -v java &> /dev/null
+# then
+#     echo "   Warning: 'java' command not found. 'epubcheck' requires Java."
+# else
+#     echo "   Java found: $(java -version 2>&1 | head -n 1)"
+#     # You could add logic here to download/install epubcheck.jar if you automate it
+#     # e.g., if [ ! -d "epubcheck" ]; then wget ... unzip ...; fi
+# fi
+
+echo "----------------------------------------------------"
+echo "Environment setup complete!"
+echo "----------------------------------------------------"
+echo ""
+echo "Next steps for your EPUB workflow:"
+echo "----------------------------------------------------"
+echo "1.  Place your raw text or Markdown content files into the 'src/' directory."
+echo "    (e.g., 'src/chapter1.md', 'src/introduction.txt')"
+echo ""
+echo "2.  **Examine Content:** Run the examination script to identify issues."
+echo "    Example: python src/examine_content.py src/your_book_content/ > validation_reports/examine_log.txt"
+echo ""
+echo "3.  **Correct Content:** Manually or semi-automatically apply corrections."
+echo "    The 'src/correct_content.py' script would contain functions for this."
+echo ""
+echo "4.  **Validate Files:** Run structural and compliance validation."
+echo "    Example: python src/validate_files.py src/processed_html_files/ --output-report validation_reports/validation_report.json"
+echo ""
+echo "5.  **Compile EPUB:** Assemble all validated content into a professional EPUB."
+echo "    Example: python src/compile_epub.py --input-dir src/ --output-file output/my_bestseller.epub --metadata-file src/metadata.json"
+echo "----------------------------------------------------"
+echo "Remember to check 'validation_reports/' for logs and reports."
+echo "Good luck with your EPUB creation!"
+echo "----------------------------------------------------"
