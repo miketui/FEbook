@@ -1,0 +1,50 @@
+----------------------------------------------------
+Starting EPUB Processing Environment Setup...
+----------------------------------------------------
+1. Creating project directories: src, output, temp, validation_reports...
+   Directories created/ensured.
+2. Installing Python dependencies from requirements.txt...
+Requirement already satisfied: markdown in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from -r requirements.txt (line 5)) (3.8)
+Requirement already satisfied: beautifulsoup4 in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from -r requirements.txt (line 8)) (4.13.4)
+Requirement already satisfied: lxml in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from -r requirements.txt (line 9)) (5.4.0)
+Requirement already satisfied: EbookLib in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from -r requirements.txt (line 12)) (0.19)
+Requirement already satisfied: flake8 in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from -r requirements.txt (line 15)) (7.2.0)
+Requirement already satisfied: pytest in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from -r requirements.txt (line 18)) (8.3.5)
+Requirement already satisfied: soupsieve>1.2 in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from beautifulsoup4->-r requirements.txt (line 8)) (2.7)
+Requirement already satisfied: typing-extensions>=4.0.0 in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from beautifulsoup4->-r requirements.txt (line 8)) (4.13.2)
+Requirement already satisfied: six in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from EbookLib->-r requirements.txt (line 12)) (1.17.0)
+Requirement already satisfied: mccabe<0.8.0,>=0.7.0 in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from flake8->-r requirements.txt (line 15)) (0.7.0)
+Requirement already satisfied: pycodestyle<2.14.0,>=2.13.0 in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from flake8->-r requirements.txt (line 15)) (2.13.0)
+Requirement already satisfied: pyflakes<3.4.0,>=3.3.0 in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from flake8->-r requirements.txt (line 15)) (3.3.2)
+Requirement already satisfied: iniconfig in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from pytest->-r requirements.txt (line 18)) (2.1.0)
+Requirement already satisfied: packaging in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from pytest->-r requirements.txt (line 18)) (25.0)
+Requirement already satisfied: pluggy<2,>=1.5 in /root/.pyenv/versions/3.12.10/lib/python3.12/site-packages (from pytest->-r requirements.txt (line 18)) (1.6.0)
+   Python dependencies installed successfully.
+3. Checking for essential external tools...
+   Warning: 'pandoc' command not found.
+   'pandoc' is highly recommended for robust Markdown conversion.
+   Please install it manually if needed (e.g., 'sudo apt-get install pandoc' on Linux).
+----------------------------------------------------
+Environment setup complete!
+----------------------------------------------------
+
+Next steps for your EPUB workflow:
+----------------------------------------------------
+1.  Place your raw text or Markdown content files into the 'src/' directory.
+    (e.g., 'src/chapter1.md', 'src/introduction.txt')
+
+2.  **Examine Content:** Run the examination script to identify issues.
+    Example: python src/examine_content.py src/your_book_content/ > validation_reports/examine_log.txt
+
+3.  **Correct Content:** Manually or semi-automatically apply corrections.
+    The 'src/correct_content.py' script would contain functions for this.
+
+4.  **Validate Files:** Run structural and compliance validation.
+    Example: python src/validate_files.py src/processed_html_files/ --output-report validation_reports/validation_report.json
+
+5.  **Compile EPUB:** Assemble all validated content into a professional EPUB.
+    Example: python src/compile_epub.py --input-dir src/ --output-file output/my_bestseller.epub --metadata-file src/metadata.json
+----------------------------------------------------
+Remember to check 'validation_reports/' for logs and reports.
+Good luck with your EPUB creation!
+----------------------------------------------------
