@@ -1,1 +1,32 @@
 EPUB written to output/test.epub
+=======
+Traceback (most recent call last):
+  File "/workspace/FEbook/src/compile_epub.py", line 36, in <module>
+    main()
+  File "/workspace/FEbook/src/compile_epub.py", line 32, in main
+    compile_epub(output, html_files, {'title': 'My Book'})
+  File "/workspace/FEbook/src/compile_epub.py", line 22, in compile_epub
+    epub.write_epub(str(output_path), book)
+  File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/ebooklib/epub.py", line 1751, in write_epub
+    epub.write()
+  File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/ebooklib/epub.py", line 1374, in write
+    self._write_items()
+  File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/ebooklib/epub.py", line 1361, in _write_items
+    self.out.writestr('%s/%s' % (self.book.FOLDER_NAME, item.file_name), self._get_nav(item))
+                                                                         ^^^^^^^^^^^^^^^^^^^
+  File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/ebooklib/epub.py", line 1217, in _get_nav
+    inserted_pages = get_pages_for_items([item for item in self.book.get_items_of_type(ebooklib.ITEM_DOCUMENT) \
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/ebooklib/utils.py", line 119, in get_pages_for_items
+    pages_from_docs = [get_pages(item) for item in items]
+                       ^^^^^^^^^^^^^^^
+  File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/ebooklib/utils.py", line 96, in get_pages
+    body = parse_html_string(item.get_body_content())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/ebooklib/utils.py", line 48, in parse_html_string
+    html_tree = html.document_fromstring(s, parser=utf8_parser)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.pyenv/versions/3.12.10/lib/python3.12/site-packages/lxml/html/__init__.py", line 738, in document_fromstring
+    raise etree.ParserError(
+lxml.etree.ParserError: Document is empty
+
