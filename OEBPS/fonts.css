@@ -1,7 +1,56 @@
 /* fonts.css — Font definitions for EPUB */
-@font-face{font-family:'Montserrat';src:url(fonts/Montserrat-Regular.woff2) format('woff2');font-weight:normal;font-style:normal;}
-@font-face{font-family:'Montserrat';src:url(fonts/Montserrat-Bold.woff2) format('woff2');font-weight:bold;font-style:normal;}
-@font-face{font-family:'Libre Baskerville';src:url(fonts/librebaskerville-regular.woff2) format('woff2');font-weight:normal;font-style:normal;}
-@font-face{font-family:'Libre Baskerville';src:url(fonts/librebaskerville-bold.woff2) format('woff2');font-weight:bold;font-style:normal;}
-@font-face{font-family:'Libre Baskerville';src:url(fonts/librebaskerville-italic.woff2) format('woff2');font-weight:normal;font-style:italic;}
-@font-face{font-family:'Cinzel Decorative';src:url(fonts/CinzelDecorative.woff2) format('woff2');font-weight:normal;font-style:normal;}
+@font-face{
+  font-family:'Montserrat';
+  src:url(fonts/Montserrat-Regular.woff2) format('woff2');
+  font-weight:normal;
+  font-style:normal;
+  font-display: swap;
+}
+@font-face{
+  font-family:'Montserrat';
+  src:url(fonts/Montserrat-Bold.woff2) format('woff2');
+  font-weight:bold;
+  font-style:normal;
+  font-display: swap;
+}
+@font-face{
+  font-family:'Libre Baskerville';
+  src:url(fonts/librebaskerville-regular.woff2) format('woff2');
+  font-weight:normal;
+  font-style:normal;
+  font-display: swap;
+}
+@font-face{
+  font-family:'Libre Baskerville';
+  src:url(fonts/librebaskerville-bold.woff2) format('woff2');
+  font-weight:bold;
+  font-style:normal;
+  font-display: swap;
+}
+@font-face{
+  font-family:'Libre Baskerville';
+  src:url(fonts/librebaskerville-italic.woff2) format('woff2');
+  font-weight:normal;
+  font-style:italic;
+  font-display: swap;
+}
+@font-face{
+  font-family:'Cinzel Decorative';
+  src:url(fonts/CinzelDecorative.woff2) format('woff2');
+  font-weight:normal;
+  font-style:normal;
+  font-display: swap;
+}
+
+/* Fallback font stacks */
+body {
+  font-family: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel Decorative', 'Times New Roman', serif;
+}
+
+.author, .publisher-info {
+  font-family: 'Montserrat', Arial, sans-serif;
+}
