@@ -16,13 +16,13 @@
     <meta property="dcterms:modified">2025-05-27T00:00:00Z</meta>
   </metadata>
   <manifest>
-    <item id="item01" href="1TitlePage.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item02" href="2Copyright.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item03" href="3TableOfContents.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item04" href="4Dedication.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item05" href="5SelfAssessment.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item06" href="6AffirmationOdyssey.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item07" href="7Preface.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item01" href="1-TitlePage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item02" href="2-Copyright.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item03" href="3-TableOfContents.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item04" href="4-Dedication.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item05" href="5-SelfAssessment.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item06" href="6-AffirmationOdyssey.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item07" href="7-Preface.xhtml" media-type="application/xhtml+xml"/>
     <item id="item08" href="8-Part-I-Foundations-of-Creative-Hairstyling.xhtml" media-type="application/xhtml+xml"/>
     <item id="item09" href="9-Chapter-I-Unveiling-Your-Creative-Odyssey.xhtml" media-type="application/xhtml+xml"/>
     <item id="item10" href="10-Chapter-II-Refining-Your-Creative-Toolkit.xhtml" media-type="application/xhtml+xml"/>

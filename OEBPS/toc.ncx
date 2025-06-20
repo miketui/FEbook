@@ -15,31 +15,31 @@
   <navMap>
     <navPoint id="navPoint-1" playOrder="1">
       <navLabel><text>Title Page</text></navLabel>
-      <content src="1TitlePage.xhtml"/>
+      <content src="1-TitlePage.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-2" playOrder="2">
       <navLabel><text>Copyright</text></navLabel>
-      <content src="2Copyright.xhtml"/>
+      <content src="2-Copyright.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-3" playOrder="3">
       <navLabel><text>Table of Contents</text></navLabel>
-      <content src="3TableOfContents.xhtml"/>
+      <content src="3-TableOfContents.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-4" playOrder="4">
       <navLabel><text>Dedication</text></navLabel>
-      <content src="4Dedication.xhtml"/>
+      <content src="4-Dedication.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-5" playOrder="5">
       <navLabel><text>Self-Assessment 1</text></navLabel>
-      <content src="5SelfAssessment.xhtml"/>
+      <content src="5-SelfAssessment.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-6" playOrder="6">
       <navLabel><text>Affirmation Odyssey</text></navLabel>
-      <content src="6AffirmationOdyssey.xhtml"/>
+      <content src="6-AffirmationOdyssey.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-7" playOrder="7">
       <navLabel><text>Preface</text></navLabel>
-      <content src="7Preface.xhtml"/>
+      <content src="7-Preface.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-8" playOrder="8">
       <navLabel><text>Part I: Foundations of Creative Hairstyling</text></navLabel>
