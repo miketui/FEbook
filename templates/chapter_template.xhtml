@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>{{CHAPTER_TITLE}}</title>
+    <link href="../css/fonts.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header epub:type="titlepage" role="doc-titlepage">
+      <div class="decorative-top-accent"></div>
+      <h2 class="chapter-number">{{CHAPTER_NUMBER}}</h2>
+      <div class="chapter-title-container chapter-title-left">{{STACKED_TITLE}}</div>
+      <div class="bible-quote-container">{{BIBLE_QUOTE}}</div>
+    </header>
+    <main role="main">
+      <section class="chapter-content" epub:type="chapter" role="doc-chapter">
+        <p class="first-paragraph"><span class="dropcap">{{DROP_CAP}}</span>{{FIRST_PARA}}</p>
+        {{CONTENT}}
+      </section>
+    </main>
+    <hr role="doc-pagebreak" aria-label="Page break before endnotes" class="page-break" />
+    <section class="endnotes" role="doc-endnotes">
+      <h2>Endnotes</h2>
+      {{ENDNOTES}}
+    </section>
+    <hr role="doc-pagebreak" aria-label="Page break before quiz" class="page-break" />
+    <section class="quiz-container" role="doc-assessment">
+      <div class="quiz-title">Quiz</div>
+      {{QUIZ}}
+    </section>
+    <hr role="doc-pagebreak" aria-label="Page break before worksheet" class="page-break" />
+    <section class="worksheet-page" role="doc-exercise">
+      {{WORKSHEET}}
+      <div class="download-container">
+        <a href="downloads/{{WORKSHEET_NAME}}.pdf" class="download-btn">Download</a>
+      </div>
+    </section>
+    <hr role="doc-pagebreak" aria-label="Page break before chapter image" class="page-break" />
+    <footer class="image-container" role="doc-backmatter">
+      <a class="chapter-image-link" href="#">
+        <img
+          alt="{{IMAGE_ALT}}"
+          class="chapter-image"
+          src="images/Chapter-{{CHAPTER_NUM}}-quote.png"
+        />
+      </a>
+    </footer>
+  </body>
+</html>
