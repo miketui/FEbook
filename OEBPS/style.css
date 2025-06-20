@@ -1,8 +1,7 @@
 /* 
- * style.css — EPUB Chapter Template (Ebook-Optimized)
- * Publication-ready stylesheet for maximum ebook compatibility
- * Comprehensive styling for all book elements
- * Path: OEBPS/css/style.css
+ * style.css — EPUB Single Page Layout (Publication-Ready)
+ * Optimized for single-page layouts with CSS decorative elements
+ * No SVG dependencies - pure CSS styling
  */
 
 /* ====== IMPORT FONTS ====== */
@@ -23,15 +22,23 @@ body {
   font-family: 'Libre Baskerville', Georgia, serif;
   font-weight: normal;
   font-style: normal;
-  line-height: 1.65;
-  color: #232323;
-  background-color: #fffcf7;
+  line-height: 1.6;
+  color: #2c2c2c;
+  background-color: #ffffff;
   margin: 0 auto;
   padding: 1.5em;
-  text-align: justify;
+  text-align: left;
   orphans: 2;
   widows: 2;
-  max-width: 40em;
+  max-width: 35em;
+  min-height: 100vh;
+}
+
+/* ====== SINGLE PAGE CONTROL ====== */
+.single-page {
+  max-height: 100vh;
+  overflow: hidden;
+  page-break-after: always;
 }
 
 /* ====== PAGE BREAKS ====== */
@@ -44,799 +51,793 @@ body {
   border: none;
 }
 
-/* Prevent orphaned headings */
 h1, h2, h3, h4, h5, h6 {
   page-break-after: avoid;
 }
 
-/* Keep related content together */
-figure, blockquote, .quiz-container, .worksheet-container {
-  page-break-inside: avoid;
-}
-
 /* ====== TYPOGRAPHY ====== */
-/* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cinzel Decorative', serif;
-  margin: 1.5em 0 0.5em 0;
+  margin: 1em 0 0.8em 0;
   line-height: 1.2;
-  color: #1797a6;
+  color: #1a1a1a;
   font-weight: normal;
+  text-align: center;
 }
 
 h1 {
   font-size: 1.8em;
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
-h3 {
-  font-size: 1.3em;
-}
-
-h4 {
-  font-size: 1.1em;
-}
-
-h5, h6 {
-  font-size: 1em;
-}
-
-/* Paragraphs */
-p {
-  margin: 0.8em 0;
-  text-indent: 1.5em;
-}
-
-p.first,
-.no-indent {
-  text-indent: 0;
-}
-
-/* Lists */
-ul, ol {
-  margin: 0.8em 0 0.8em 2em;
-}
-
-li {
-  margin-bottom: 0.5em;
-}
-
-/* Blockquotes */
-blockquote {
-  margin: 1.5em 2em;
-  padding-left: 1em;
-  border-left: 3px solid #C9A668;
-  font-style: italic;
-}
-
-/* Superscript for references */
-sup {
-  font-size: 0.75em;
-  line-height: 0;
-  vertical-align: super;
-}
-
-/* Links */
-a {
-  color: #1797a6;
-  text-decoration: underline;
-}
-
-/* ====== CHAPTER STRUCTURE ====== */
-/* Chapter Number - Roman numeral top center */
-.chapter-number {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 1.2em;
-  text-align: center;
-  margin: 1em 0 2em 0;
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.12em;
-  color: #1797a6;
-}
-
-/* Chapter Title Container - Original style */
-.chapter-title-container {
-  margin-left: 1.5em;
-  border-left: 0.12em solid #232323;
-  padding-left: 1em;
-}
-
-/* Chapter Title Left - New positioned style */
-.chapter-title-left {
-  margin-left: 0;
-  border-left: 0.12em solid #232323;
-  padding-left: 1em;
-  margin-bottom: 2em;
-  width: fit-content;
-}
-
-.chapter-title-word {
-  font-family: 'Cinzel Decorative', serif;
-  display: block;
-  font-size: 1.85em;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: underline;
-  margin: 0.2em 0;
-  line-height: 1.15;
-  letter-spacing: 0.03em;
-  color: #1797a6;
-}
-
-/* Chapter Subtitle */
-.chapter-subtitle {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 1.5em;
-  font-weight: 700;
-  text-transform: uppercase;
   margin: 1.5em 0 1em 0;
-  color: #1797a6;
-  text-align: center;
-}
-
-/* Introduction heading centered under bible quote */
-.introduction-heading {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 1.5em;
-  text-align: center;
-  margin: 2em 0 1.5em 0;
-  font-weight: normal;
-  color: #1797a6;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-/* Bible Quote Box */
-.bible-quote-container {
-  border: 0.06em solid #1797a6;
-  border-radius: 8px;
-  margin: 1.5em auto;
-  padding: 1em;
-  width: 80%;
-  text-align: center;
-  background-color: #f6f5f2;
-}
-
-.bible-quote-container p {
-  font-style: italic;
-  text-indent: 0;
-  margin: 0.5em 0;
-}
-
-/* Chapter Content */
-.chapter-content {
-  margin: 0 1.5em;
-}
-
-/* ====== TABLE OF CONTENTS ====== */
-.toc-main {
-  max-width: 35em;
-  margin: 0 auto;
-  padding: 2em 1em;
-}
-
-.toc-title {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 2em;
-  text-align: center;
-  color: #1797a6;
-  margin-bottom: 2em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
-.toc-decorative-line {
+h2 {
+  font-size: 1.4em;
+  margin: 1.2em 0 0.8em 0;
+}
+
+h3 {
+  font-size: 1.2em;
+  margin: 1em 0 0.6em 0;
+}
+
+/* ====== PARAGRAPHS ====== */
+p {
+  margin: 0 0 0.8em 0;
+  text-indent: 1.2em;
+  text-align: justify;
+}
+
+p.first,
+.no-indent,
+.introduction,
+.centered {
+  text-indent: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+/* ====== DECORATIVE ELEMENTS (CSS ONLY) ====== */
+.decorative-line {
   width: 60px;
-  height: 3px;
-  background-color: #1797a6;
-  margin: 1em auto 2em auto;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #333, transparent);
+  margin: 1em auto;
+  border: none;
 }
 
-.toc-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.decorative-border {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 1em 0;
+  padding: 0.5em 0;
 }
 
-.toc-list li {
-  margin: 0.75em 0;
-  border-bottom: 1px dotted #C9A668;
-  padding-bottom: 0.5em;
+.elegant-divider {
+  text-align: center;
+  margin: 1.5em 0;
+  position: relative;
+}
+
+.elegant-divider::before {
+  content: "✦";
+  font-size: 1.2em;
+  color: #666;
+  background: white;
+  padding: 0 1em;
+  position: relative;
+  z-index: 1;
+}
+
+.elegant-divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #ddd, transparent);
+  z-index: 0;
+}
+
+.section-separator {
+  border-top: 2px solid #eee;
+  border-bottom: 1px solid #eee;
+  height: 1px;
+  margin: 2em 0;
+  position: relative;
+}
+
+.section-separator::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: -3px;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 6px;
+  background: #666;
+  border-radius: 50%;
+}
+
+/* ====== TITLE PAGE STYLES ====== */
+.title-page {
+  text-align: center;
+  padding: 2em 1em;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  page-break-after: always;
+}
+
+.title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 2.2em;
+  margin: 1em 0 0.5em 0;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.1em;
+  margin: 0.5em 0 1.5em 0;
+  font-style: italic;
+  color: #555;
+}
+
+.author {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  margin: 2em 0 1em 0;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.publisher-info {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.9em;
+  margin: 0.3em 0;
+  color: #666;
+}
+
+.divider {
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #333, transparent);
+  margin: 1.5em auto;
+}
+
+/* ====== COPYRIGHT PAGE ====== */
+.copyright-page {
+  padding: 2em 1em;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  page-break-after: always;
+}
+
+.copyright-content {
+  max-width: 28em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copyright-notice {
+  font-weight: bold;
+  margin: 1.5em 0 1em 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 1em 0;
+}
+
+.rights-text {
+  margin: 1em 0;
+  line-height: 1.5;
+  font-size: 0.95em;
+}
+
+.isbn-info {
+  margin: 1.5em 0;
+  padding: 0.5em;
+  border: 1px solid #eee;
+  background: #f9f9f9;
+}
+
+.isbn-label {
+  font-weight: bold;
+}
+
+.publisher-label {
+  font-weight: bold;
+  margin: 1.5em 0 0.5em 0;
+}
+
+/* ====== TABLE OF CONTENTS ====== */
+.contents-page {
+  padding: 1.5em 1em;
+  min-height: 90vh;
+  page-break-after: always;
+}
+
+.contents-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 1em 0 1.5em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.toc-container {
+  max-width: 32em;
+  margin: 0 auto;
+}
+
+.toc-section {
+  margin: 1.2em 0;
+}
+
+.part-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1em;
+  text-align: center;
+  margin: 1.5em 0 0.8em 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #333;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5em 0;
+  background: #f9f9f9;
+}
+
+.toc-entry {
+  margin: 0.5em 0;
+  padding: 0.2em 0;
+  border-bottom: 1px dotted #ccc;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
+  font-size: 0.95em;
 }
 
-.toc-list a {
-  text-decoration: none;
-  color: #232323;
-  font-family: 'Libre Baskerville', Georgia, serif;
+.entry-title {
   flex-grow: 1;
   padding-right: 1em;
 }
 
-.toc-list a:hover {
-  color: #1797a6;
+.chapter-entry .entry-title {
+  padding-left: 1em;
+  font-style: italic;
 }
 
-.toc-page-number {
-  font-family: 'Montserrat', system-ui, sans-serif;
-  font-size: 0.9em;
-  color: #5e4f3e;
-  min-width: 2em;
-  text-align: right;
-}
-
-.toc-section-break {
-  margin: 2em 0 1em 0;
-  border-top: 2px solid #1797a6;
-  padding-top: 1em;
-}
-
-/* ====== DEDICATION STYLING ====== */
-.dedication-main {
-  max-width: 30em;
-  margin: 0 auto;
-  padding: 3em 1em;
+.section-divider {
+  margin: 1.5em 0;
   text-align: center;
 }
 
-.dedication-title {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 2.2em;
-  color: #1797a6;
-  margin-bottom: 2em;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
+.divider-line {
+  width: 40px;
+  height: 1px;
+  background-color: #333;
+  display: inline-block;
+  margin: 0 0.5em;
+  vertical-align: middle;
 }
 
-.dedication-decorative-lines {
-  width: 100px;
-  height: 2px;
-  background: linear-gradient(to right, transparent, #1797a6, transparent);
-  margin: 2em auto;
+/* ====== DEDICATION PAGE ====== */
+.dedication-page {
+  padding: 2em 1em;
+  min-height: 90vh;
+  page-break-after: always;
+}
+
+.title-container {
+  text-align: center;
+  margin: 1.5em 0 2em 0;
+}
+
+.title-dropcap-container {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5em;
+  display: inline-block;
+}
+
+.title-drop-cap {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333;
 }
 
 .dedication-content {
-  font-family: 'Libre Baskerville', Georgia, serif;
-  font-style: italic;
-  line-height: 1.8;
-  color: #232323;
-  margin: 2em 0;
-}
-
-.dedication-content p {
-  margin: 1.5em 0;
-  text-indent: 0;
-}
-
-.dedication-signature {
-  margin-top: 3em;
-  font-size: 0.9em;
-  color: #5e4f3e;
-}
-
-/* ====== SELF-ASSESSMENT STYLING ====== */
-.assessment-main {
-  max-width: 35em;
+  max-width: 30em;
   margin: 0 auto;
-  padding: 2em 1em;
 }
 
-.assessment-title {
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 2em;
-  text-align: center;
-  color: #1797a6;
-  margin-bottom: 1.5em;
-  text-transform: uppercase;
+.text-container {
+  margin: 1.5em 0;
 }
 
-.assessment-decorative-line {
-  width: 80px;
-  height: 3px;
-  background-color: #1797a6;
-  margin: 1em auto 2em auto;
+.dedication-text {
+  margin: 1em 0;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 0.95em;
 }
 
-.assessment-introduction {
+.dedication-text.first-line {
   font-style: italic;
   text-align: center;
-  margin: 2em auto;
-  color: #5e4f3e;
-  text-indent: 0;
-}
-
-.assessment-question {
-  margin: 2em 0;
-  border-bottom: 1px solid #e9e3da;
-  padding-bottom: 1.5em;
-}
-
-.question-number {
-  font-family: 'Montserrat', system-ui, sans-serif;
-  font-weight: bold;
-  color: #1797a6;
-  margin-bottom: 0.5em;
-}
-
-.question-text {
-  font-family: 'Libre Baskerville', Georgia, serif;
-  line-height: 1.6;
-  margin-bottom: 1em;
-  text-indent: 0;
-}
-
-/* ====== SPECIAL ELEMENTS ====== */
-/* Drop Cap */
-.dropcap {
-  font-family: 'Libre Baskerville', Georgia, serif;
-  font-weight: bold;
-  float: left;
-  font-size: 4em;
-  line-height: 0.8;
-  margin: 0.05em 0.12em 0 0;
-  color: #1797a6;
-}
-
-/* Endnotes Section */
-.endnotes {
-  margin: 2.5em 1.5em 1.5em 1.5em;
-  border-top: 0.06em solid #5e4f3e;
-  padding-top: 1em;
-}
-
-.endnotes h2 {
-  font-size: 1.2em;
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 1em;
-}
-
-.endnote {
-  font-size: 0.9em;
-  margin-bottom: 0.5em;
-  text-indent: -1.5em;
-  padding-left: 1.5em;
-}
-
-/* ====== QUIZ STYLES ====== */
-.quiz-container {
-  margin: 1.5em;
-  background-color: #f6f5f2;
-  border-radius: 8px;
-  padding: 1em;
-}
-
-.quiz-title {
-  font-family: 'Libre Baskerville', Georgia, serif;
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.5em;
-  text-transform: uppercase;
+  font-size: 1.05em;
   margin-bottom: 1.5em;
-  border-bottom: 0.12em solid #1797a6;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  color: #1797a6;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 1em 0;
 }
 
-.quiz-question {
-  margin: 1.5em 0;
+.dedication-text.last-line {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1.5em;
+  font-style: italic;
 }
 
-.quiz-options {
-  margin-left: 1.5em;
-  margin-top: 0.5em;
-}
-
-.quiz-option {
-  margin: 0.5em 0;
-}
-
-/* ====== WORKSHEET STYLES ====== */
-.worksheet-container,
-.worksheet-page {
-  margin: 1.5em;
-  background-color: #f6f5f2;
-  border-radius: 8px;
+.lighthouse {
+  background: linear-gradient(to right, #f9f9f9, #fff, #f9f9f9);
   padding: 1em;
+  border-left: 3px solid #333;
+  border-right: 1px solid #eee;
+  margin: 1em 0;
 }
 
-.worksheet-title {
-  font-family: 'Libre Baskerville', Georgia, serif;
+.bold-name {
   font-weight: bold;
+  color: #333;
+}
+
+/* ====== WORKSHEET STYLES (SINGLE PAGE) ====== */
+.assessment-page,
+.affirmation-page {
+  padding: 1em;
+  min-height: 90vh;
+  page-break-after: always;
+  background: linear-gradient(to bottom, #ffffff, #fafafa);
+}
+
+.assessment-title,
+.affirmation-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.6em;
   text-align: center;
-  font-size: 1.5em;
+  margin: 0.5em 0 1em 0;
   text-transform: uppercase;
-  margin-bottom: 1.5em;
-  border-bottom: 0.12em solid #1797a6;
+  border-bottom: 2px solid #333;
   padding-bottom: 0.5em;
-  padding-top: 0.5em;
-  color: #1797a6;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 0.5em 1em;
 }
 
-.worksheet-subtitle {
-  font-family: 'Montserrat', system-ui, sans-serif;
-  font-weight: normal;
+.affirmation-subtitle {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1em;
   text-align: center;
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
-  color: #5e4f3e;
+  margin: 0.5em 0 1.5em 0;
+  font-style: italic;
+  color: #666;
 }
 
-.worksheet-section {
-  margin: 1.5em 0;
-}
-
-.worksheet-question {
-  font-family: 'Montserrat', system-ui, sans-serif;
-  font-weight: bold;
-  margin-bottom: 0.5em;
-}
-
-.answer-lines {
-  height: 5em;
-  border-bottom: 0.06em solid #e9e3da;
-  margin-bottom: 1em;
-  background-color: #ffffff;
-  border-radius: 4px;
-}
-
-/* ====== DECORATIVE ELEMENTS ====== */
 .decorative-line {
+  width: 60px;
   height: 2px;
-  background-color: #1797a6;
-  width: 60%;
+  background: linear-gradient(to right, transparent, #333, transparent);
   margin: 1em auto;
 }
 
-.decorative-top-accent {
-  width: 60px;
-  height: 6px;
-  background-color: #1797a6;
-  border-radius: 2px;
-  margin: 1.5em auto 1em auto;
-}
-
-/* ====== TEXT STYLES ====== */
 .introduction {
   font-style: italic;
   text-align: center;
   margin: 1em auto;
   max-width: 90%;
-  text-indent: 0;
+  font-size: 0.9em;
+  background: #f9f9f9;
+  padding: 0.8em;
+  border: 1px solid #eee;
+  border-radius: 4px;
 }
 
-.instructions {
-  margin: 1em auto;
-  max-width: 90%;
-  text-indent: 0;
-}
-
-/* ====== LAYOUT - EBOOK SAFE ====== */
-/* Two Column Layout - Using Floats */
+/* ====== WORKSHEET COLUMNS (OPTIMIZED FOR SINGLE PAGE) ====== */
 .columns-container {
-  width: 100%;
-  overflow: hidden;
-  margin: 1.5em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  margin: 1em 0;
 }
 
 .column {
-  float: left;
-  width: 48%;
-  margin-right: 4%;
+  background: white;
+  padding: 0.8em;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.column:last-child {
-  margin-right: 0;
+.question-container {
+  margin: 1.2em 0;
+  padding: 0.8em;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background: linear-gradient(to bottom, #ffffff, #fafafa);
+  page-break-inside: avoid;
 }
 
-/* Clear floats */
-.columns-container:after {
-  content: "";
-  display: table;
-  clear: both;
+.question-number {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+  color: #333;
+  background: #f0f0f0;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ddd;
 }
 
-/* ====== SECTION STYLES ====== */
+.question-text {
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+  font-size: 0.9em;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: #333;
+}
+
+.answer-space {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-height: 3em;
+  margin: 0.8em 0;
+  padding: 0.5em;
+  background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 1.2em,
+    #eee 1.2em,
+    #eee 1.3em
+  );
+}
+
+/* ====== AFFIRMATION WORKSHEET SPECIFIC ====== */
 .section {
-  margin-bottom: 1.5em;
+  margin: 1.5em 0;
+  background: white;
+  padding: 1em;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .section-header {
   text-align: center;
-  margin: 2em 0 1em 0;
-}
-
-.section-header .section-title {
-  font-family: 'Libre Baskerville', Georgia, serif;
-  font-weight: bold;
-  font-size: 1.3em;
-  color: #1797a6;
-  border-bottom: 2px solid #1797a6;
-  padding-bottom: 0.5em;
-  display: inline-block;
+  margin: 1em 0;
+  position: relative;
 }
 
 .section-title {
-  font-family: 'Libre Baskerville', Georgia, serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: bold;
-  font-size: 1.2em;
-  color: #1797a6;
-  margin: 0 0.25em;
-}
-
-.section-description {
-  margin-bottom: 0.5em;
-  font-size: 0.95em;
-  text-indent: 0;
-}
-
-.section-example {
-  font-style: italic;
-  font-size: 0.9em;
-  color: #5e4f3e;
-  margin-bottom: 0.5em;
-  text-indent: 0;
-}
-
-/* ====== CONTENT ITEMS ====== */
-.content-item {
-  margin-bottom: 1em;
-  overflow: hidden;
-}
-
-.item-number {
-  font-family: 'Montserrat', system-ui, sans-serif;
-  font-weight: bold;
-  float: left;
-  width: 1.5em;
-}
-
-.item-text {
-  margin-left: 2em;
-  display: block;
-}
-
-.item-details {
-  margin-top: 0.25em;
-  margin-left: 1em;
-  font-size: 0.9em;
-}
-
-.item-question {
-  margin: 0.25em 0;
-  font-size: 0.95em;
-}
-
-.item-example {
-  font-style: italic;
-  font-size: 0.9em;
-  color: #5e4f3e;
-  margin-top: 0.25em;
-}
-
-/* ====== ANSWER SPACES ====== */
-.answer-space {
-  border-bottom: 1px solid #C9A668;
-  min-height: 4em;
-  margin: 1em 0;
-  background-color: #fafafa;
-  border-radius: 4px 4px 0 0;
-  padding: 0.5em;
-}
-
-.answer-box {
-  margin-bottom: 1em;
-}
-
-.answer-label {
-  font-family: 'Montserrat', system-ui, sans-serif;
-  font-weight: 600;
-  font-size: 0.9em;
-  color: #5e4f3e;
-  margin-bottom: 0.25em;
-}
-
-.journal-box {
-  min-height: 8em;
-  margin-bottom: 1em;
-  background-color: #fafafa;
-  border: 1px solid #e9e3da;
+  font-size: 1.1em;
+  color: #333;
+  background: white;
+  padding: 0.5em 1em;
+  border: 2px solid #333;
   border-radius: 4px;
+  display: inline-block;
 }
 
-/* ====== TABLES ====== */
-.table-container {
-  margin: 0.5em 0 1em 0;
-  overflow-x: auto;
+.section-line {
+  width: 30px;
+  height: 1px;
+  background-color: #333;
+  display: inline-block;
+  margin: 0 0.5em;
+  vertical-align: middle;
 }
 
-.worksheet-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.9em;
+.affirmation-lines {
+  margin: 1em 0;
 }
 
-.worksheet-table th {
+.affirmation-line {
+  margin: 0.8em 0;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(to right, #f9f9f9, #ffffff);
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.line-number {
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  background-color: #E0F4F6;
-  color: #232323;
-  text-align: left;
-  padding: 0.25em 0.5em;
-  border: 1px solid #5AB9C5;
-}
-
-.worksheet-table td {
-  padding: 0.25em 0.5em;
-  border: 1px solid #5AB9C5;
-}
-
-.input-cell {
-  min-height: 2em;
-  background-color: #fafafa;
-}
-
-/* ====== CHECKLISTS ====== */
-.checklist-container {
-  margin: 0.25em 0 0.5em 0;
-}
-
-.checklist-item {
-  margin-bottom: 0.25em;
-  overflow: hidden;
-}
-
-.checkbox,
-.checkbox-circle,
-.checkbox-square {
-  float: left;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #1797a6;
-  margin-right: 0.5em;
-}
-
-.checkbox-circle {
+  width: 2em;
+  color: #333;
+  background: #f0f0f0;
+  text-align: center;
   border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
 }
 
-.checklist-text {
-  display: block;
-  margin-left: 1.5em;
-}
-
-.checklist-line {
-  border-bottom: 1px dotted #1797a6;
+.line-container {
+  flex-grow: 1;
+  border-bottom: 1px solid #ccc;
   min-height: 1.5em;
-  margin-left: 1.5em;
+  margin-left: 0.5em;
+  background: linear-gradient(to bottom, transparent, #fafafa);
+  padding: 0.2em 0.5em;
+  border-radius: 2px;
 }
 
-/* ====== SPECIAL CONTAINERS ====== */
-.quote-callout {
-  margin: 1em auto;
-  padding: 0.5em;
-  border: 1px solid #C9A668;
-  border-radius: 8px;
-  text-align: center;
-  max-width: 90%;
-}
-
-.quote-text {
-  font-style: italic;
-  color: #C9A668;
-  text-indent: 0;
-}
-
-.inspiration-quote {
-  font-style: italic;
-  margin: 1em auto;
-  text-align: center;
-  color: #5e4f3e;
-  text-indent: 0;
-}
-
-.vision-statement-box {
+.inspiration-container {
   margin: 1em 0;
-  padding: 0.5em;
-  border: 2px solid #C9A668;
-  border-radius: 8px;
-}
-
-.vision-statement-title {
-  font-family: 'Montserrat', system-ui, sans-serif;
-  font-weight: 600;
-  font-size: 1em;
-  color: #1797a6;
-  margin-bottom: 0.25em;
-  text-align: center;
-}
-
-.vision-statement-instruction {
-  font-size: 0.9em;
-  margin-bottom: 0.25em;
-  text-align: center;
-  text-indent: 0;
-}
-
-.vision-statement-space {
-  min-height: 6em;
-  border: 1px solid #5AB9C5;
+  background: #f9f9f9;
+  padding: 1em;
+  border: 1px solid #eee;
   border-radius: 4px;
-  margin: 0.5em 0;
-  background-color: #fafafa;
+  max-height: 15em;
+  overflow-y: auto;
 }
 
-/* ====== REMOVE UNWANTED ELEMENTS ====== */
-/* Hide all decorative icons that cause EPUB problems */
+.inspiration-item {
+  margin: 0.5em 0;
+  display: flex;
+  align-items: flex-start;
+  font-size: 0.9em;
+}
+
+.inspiration-bullet {
+  margin-right: 0.5em;
+  font-weight: bold;
+  color: #666;
+  width: 1em;
+  text-align: center;
+}
+
+.inspiration-text {
+  flex-grow: 1;
+  line-height: 1.4;
+}
+
+.closing-text {
+  text-align: center;
+  font-style: italic;
+  margin: 1em 0;
+  color: #666;
+  font-size: 0.9em;
+  background: #f9f9f9;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+/* ====== PREFACE PAGE ====== */
+.preface-page {
+  padding: 1.5em 1em;
+  min-height: 90vh;
+  page-break-after: always;
+}
+
+.preface-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.8em;
+  text-align: center;
+  margin: 1em 0 1.5em 0;
+  text-transform: uppercase;
+}
+
+.introduction-heading {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1.5em 0 1em 0;
+  color: #333;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 0.5em 0;
+}
+
+.preface-content {
+  max-width: 32em;
+  margin: 0 auto;
+}
+
+.preface-paragraph {
+  margin: 1em 0;
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 0.95em;
+}
+
+.first-paragraph {
+  margin-top: 1.5em;
+}
+
+.drop-cap {
+  font-size: 3em;
+  float: left;
+  line-height: 0.9;
+  margin: 0.1em 0.1em 0 0;
+  font-weight: bold;
+  color: #333;
+  background: #f9f9f9;
+  padding: 0.1em 0.2em;
+  border-radius: 4px;
+}
+
+.italic-text {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.signature-section {
+  margin: 2em 0 1em 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  padding-top: 1em;
+}
+
+.signature-line {
+  width: 80px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #333, transparent);
+  margin: 1em auto;
+}
+
+.signature-text {
+  font-style: italic;
+  margin: 0.8em 0;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.author-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 0.8em 0;
+}
+
+/* ====== RESPONSIVE ADJUSTMENTS FOR SINGLE PAGE ====== */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.9em;
+    padding: 1em 0.5em;
+    max-width: 100%;
+  }
+  
+  .columns-container {
+    grid-template-columns: 1fr;
+    gap: 0.5em;
+  }
+  
+  .question-container {
+    margin: 1em 0;
+    padding: 0.6em;
+  }
+  
+  .affirmation-line {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .line-container {
+    margin-left: 0;
+    margin-top: 0.5em;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 1.8em;
+  }
+  
+  .subtitle {
+    font-size: 1em;
+  }
+}
+
+/* ====== PRINT STYLES ====== */
+@media print {
+  body {
+    font-size: 10pt;
+    line-height: 1.4;
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  .page-break {
+    page-break-before: always;
+  }
+  
+  .answer-space,
+  .line-container {
+    border-bottom: 0.5pt solid #000000;
+    background: none !important;
+  }
+  
+  .section,
+  .question-container,
+  .column {
+    background: #ffffff !important;
+    border: 0.5pt solid #000000 !important;
+    box-shadow: none !important;
+  }
+  
+  .decorative-line,
+  .divider,
+  .signature-line {
+    background: #000000 !important;
+  }
+}
+
+/* ====== HIDE ALL SVG ELEMENTS ====== */
+svg,
+.decorative-top,
+.decorative-icon,
 .section-icon,
-.glasses-icon,
 .scissors-icon,
-.decorative-large-svg,
-svg.decorative-icon {
+.background-curves {
   display: none !important;
 }
 
-/* ====== UTILITY CLASSES ====== */
-/* Text alignment */
-.text-left {
-  text-align: left;
+/* ====== ADDITIONAL BACKMATTER STYLES ====== */
+.worksheet-container {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 1.5em;
+  margin: 1em 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
-.text-center {
-  text-align: center;
+.preface-content {
+  max-width: 35em;
+  margin: 0 auto;
 }
 
-.text-right {
-  text-align: right;
+.first-paragraph {
+  margin-top: 1.5em;
 }
 
-/* Font styling */
-.bold,
-.font-bold {
-  font-weight: bold;
+/* ====== ENSURE SINGLE PAGE FITTING ====== */
+.single-page-content {
+  max-height: 85vh;
+  overflow: hidden;
 }
 
-.italic,
-.font-italic {
-  font-style: italic;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-/* Spacing */
-.mt-0 {
-  margin-top: 0 !important;
-}
-
-.mb-0 {
-  margin-bottom: 0 !important;
-}
-
-.mt-1 {
-  margin-top: 0.5em !important;
-}
-
-.mb-1 {
-  margin-bottom: 0.5em !important;
-}
-
-.mt-2 {
-  margin-top: 1em !important;
-}
-
-.mb-2 {
-  margin-bottom: 1em !important;
-}
-
-/* Accessibility */
+/* ====== ACCESSIBILITY ====== */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -847,145 +848,4 @@ svg.decorative-icon {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
-}
-
-/* ====== RESPONSIVE ADJUSTMENTS ====== */
-/* Small screens */
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 0.95em;
-    padding: 1em 0.5em;
-  }
-  
-  .chapter-title-container {
-    margin-left: 0.5em;
-  }
-  
-  .chapter-title-left {
-    margin-left: 0.5em;
-  }
-  
-  .chapter-content,
-  .quiz-container,
-  .worksheet-container {
-    margin: 0 0.25em;
-  }
-  
-  .bible-quote-container {
-    width: 95%;
-  }
-  
-  .column {
-    float: none;
-    width: 100%;
-    margin-right: 0;
-  }
-  
-  .worksheet-table {
-    font-size: 0.8em;
-  }
-  
-  .section-title {
-    font-size: 1em;
-  }
-  
-  .answer-space,
-  .answer-lines {
-    height: 6em;
-  }
-  
-  .toc-main,
-  .dedication-main,
-  .assessment-main {
-    padding: 1em 0.5em;
-  }
-  
-  .toc-list li {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .toc-page-number {
-    margin-top: 0.25em;
-    margin-left: 1em;
-  }
-  
-  .introduction-heading {
-    font-size: 1.3em;
-  }
-  
-  .chapter-number {
-    font-size: 1em;
-  }
-}
-
-/* Medium screens */
-@media screen and (min-width: 601px) and (max-width: 900px) {
-  body {
-    max-width: 45em;
-  }
-}
-
-/* Large screens */
-@media screen and (min-width: 1200px) {
-  body {
-    max-width: 40em;
-    margin: 0 auto;
-  }
-}
-
-/* ====== PRINT STYLES ====== */
-@media print {
-  body {
-    font-size: 12pt;
-    line-height: 1.3;
-    background: #ffffff !important;
-  }
-  
-  .page-break {
-    page-break-before: always;
-  }
-  
-  .download-btn {
-    display: none;
-  }
-  
-  .answer-space,
-  .answer-lines,
-  .journal-box,
-  .checklist-line,
-  .vision-statement-space {
-    border-bottom: 0.5pt solid #000000;
-    background: none;
-  }
-  
-  .checkbox,
-  .checkbox-circle,
-  .checkbox-square {
-    border: 0.5pt solid #000000;
-  }
-  
-  .quiz-container,
-  .worksheet-container {
-    background: #ffffff !important;
-    box-shadow: none !important;
-  }
-  
-  .toc-list li {
-    border-bottom: 0.5pt dotted #000000;
-  }
-  
-  .dedication-decorative-lines {
-    background: #000000;
-  }
-  
-  .assessment-decorative-line,
-  .toc-decorative-line {
-    background: #000000;
-  }
-  
-  .introduction-heading,
-  .chapter-number {
-    color: #000000;
-  }
 }
