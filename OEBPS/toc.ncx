@@ -1,3 +1,4 @@
+<artifact type="application/vnd.ant.code" language="xml">
 <?xml version="1.0" encoding="UTF-8"?>
 <ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
   <head>
@@ -123,67 +124,67 @@
     </navPoint>
     <navPoint id="navPoint-28" playOrder="28">
       <navLabel><text>Conclusion</text></navLabel>
-      <content src="28Conclusion.xhtml"/>
+      <content src="28-Conclusion.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-29" playOrder="29">
       <navLabel><text>Quiz Key</text></navLabel>
-      <content src="29QuizKey.xhtml"/>
+      <content src="29-QuizKey.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-30" playOrder="30">
       <navLabel><text>Self-Assessment</text></navLabel>
-      <content src="30SelfAssessment.xhtml"/>
+      <content src="30-SelfAssessment.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-31" playOrder="31">
       <navLabel><text>Affirmations Close</text></navLabel>
-      <content src="31AffirmationsClose.xhtml"/>
+      <content src="31-AffirmationsClose.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-32" playOrder="32">
       <navLabel><text>Continued Learning Commitment</text></navLabel>
-      <content src="32ContinuedLearningCommitment.xhtml"/>
+      <content src="32-ContinuedLearningCommitment.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-33" playOrder="33">
       <navLabel><text>Acknowledgments</text></navLabel>
-      <content src="33Acknowledgments.xhtml"/>
+      <content src="33-Acknowledgments.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-34" playOrder="34">
       <navLabel><text>About the Author</text></navLabel>
-      <content src="34AbouttheAuthor.xhtml"/>
+      <content src="34-AbouttheAuthor.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-35" playOrder="35">
       <navLabel><text>Curls Contemp Collective</text></navLabel>
-      <content src="35CurlsContempCollective.xhtml"/>
+      <content src="35-CurlsContempCollective.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-36" playOrder="36">
       <navLabel><text>Journaling Start</text></navLabel>
-      <content src="36JournalingStart.xhtml"/>
+      <content src="36-JournalingStart.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-37" playOrder="37">
       <navLabel><text>Manifesting Journal</text></navLabel>
-      <content src="37ManifestingJournal.xhtml"/>
+      <content src="37-ManifestingJournal.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-38" playOrder="38">
       <navLabel><text>Journal Page</text></navLabel>
-      <content src="38JournalPage.xhtml"/>
+      <content src="38-JournalPage.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-39" playOrder="39">
       <navLabel><text>Professional Development</text></navLabel>
-      <content src="39ProfessionalDevelopment.xhtml"/>
+      <content src="39-ProfessionalDevelopment.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-40" playOrder="40">
       <navLabel><text>SMART Goals</text></navLabel>
-      <content src="40SMARTGoals.xhtml"/>
+      <content src="40-SMARTGoals.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-41" playOrder="41">
       <navLabel><text>Self-Care Journal</text></navLabel>
-      <content src="41SelfCareJournal.xhtml"/>
+      <content src="41-SelfCareJournal.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-42" playOrder="42">
       <navLabel><text>Vision Journal</text></navLabel>
-      <content src="42VisionJournal.xhtml"/>
+      <content src="42-VisionJournal.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-43" playOrder="43">
       <navLabel><text>Doodle Page</text></navLabel>
-      <content src="43DoodlePage.xhtml"/>
+      <content src="43-DoodlePage.xhtml"/>
     </navPoint>
     <navPoint id="navPoint-44" playOrder="44">
       <navLabel><text>Bibliography</text></navLabel>
@@ -191,3 +192,4 @@
     </navPoint>
   </navMap>
 </ncx>
+</artifact>
