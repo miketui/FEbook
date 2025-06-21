@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta charset="utf-8"/>
 <title>The Impact of AI on the Beauty Industry</title>
@@ -43,7 +43,7 @@
 <h2>Introduction: The AI Revolution in Hairstyling</h2>
 <p class="first"><span class="dropcap">A</span>rtificial intelligence is transforming the beauty industry in ways we could scarcely have imagined a decade ago. From virtual consultations to personalized product formulations, AI technologies are reshaping how stylists work, how clients experience beauty services, and how brands develop and deliver products.<sup>1</sup> For freelance hairstylists navigating this changing landscape, AI presents both exciting opportunities and legitimate concerns. How do we embrace these powerful tools while preserving the artistry and human connection that define our craft?</p>
 <p>The beauty industry has always been at the intersection of art and science, tradition and innovation. Today, as AI becomes increasingly embedded in our professional tools and client experiences, we face a pivotal moment that challenges us to redefine what it means to be a hairstylist in the digital age. Will AI enhance our capabilities and free us to focus on creativity, or will it diminish the personal touch that makes our work meaningful? This chapter explores this question, offering practical insights on how to harness AI's potential while preserving the irreplaceable human elements of our profession.</p>
-<blockquote class="styled-quote">
+<blockquote>
 <p>Initially, I was skeptical about incorporating AI into my hairstyling services, fearing it might overshadow the personal touch integral to my work. My perspective shifted when I experimented with L'Oréal's "Style My Hair" app, an AI-driven virtual try-on tool that allows clients to preview different hair colors and styles in real-time. To my surprise, this technology complemented my creative judgment rather than replacing it. It enabled clients to visualize potential transformations, facilitating more informed and confident decisions. This experience reshaped my view of technology's role, recognizing it as a valuable ally in enhancing client satisfaction.</p>
 </blockquote>
 <p>This chapter will guide you through the evolving AI landscape in the beauty industry, offering a balanced perspective that acknowledges both the transformative potential and the important boundaries of these technologies. We'll explore how AI is enhancing client experiences, revolutionizing product development, optimizing supply chains, and creating new opportunities for stylists who are willing to adapt. Most importantly, we'll provide a practical roadmap for incorporating AI into your practice at a pace that feels comfortable, emphasizing which human skills become even more valuable in this technological era.</p>
@@ -61,7 +61,7 @@
 <li>Create digital portfolios of transformation options customized to each client</li>
 <li>Leverage these tools to help hesitant clients feel more confident about trying new styles</li>
 </ul>
-<blockquote class="styled-quote">
+<blockquote>
 <p>During a consultation, a client was uncertain about which hairstyle would suit her face shape. Utilizing an AI-powered styling tool that analyzes facial features to suggest suitable hairstyles, we explored various options. While the AI provided a range of styles, it was my professional insight into her lifestyle and personal preferences that guided the final decision. This experience underscored that, although AI offers valuable data, the human element remains crucial in interpreting and tailoring these insights to each client's unique needs.</p>
 </blockquote>
 <h3>2. Data-Driven Personalization Systems ⭐⭐</h3>
@@ -155,7 +155,7 @@
 <p><strong>Summary:</strong> AI-driven supply chain innovations in beauty allow brands to produce, ship, and deliver products more sustainably and efficiently. By forecasting demand, optimizing shipping, and encouraging conscious consumption, AI supports a more responsible approach to beauty that aligns with clients' values. Hairstylists can play a vital role in promoting these advancements, helping clients make informed choices that reflect both their beauty goals and their commitment to sustainability.</p>
 <h2>IV. Technology Adoption Roadmap: Integrating AI at Your Own Pace</h2>
 <p>For many hairstylists, the biggest challenge isn't understanding AI's potential benefits but knowing how to begin incorporating these technologies into their practice without feeling overwhelmed. This roadmap provides a structured approach to AI adoption, allowing you to integrate technologies gradually while maintaining focus on your core strengths and client relationships.<sup>5</sup></p>
-<blockquote class="styled-quote">
+<blockquote>
 <p>Integrating AI into my workflow presented initial challenges, including a steep learning curve and the need to adapt traditional practices. I started by incorporating AI-powered salon management software to automate appointment scheduling and client follow-ups. Initially, I faced technical difficulties and skepticism about its reliability. However, over time, as I became more proficient, the tool streamlined operations, reduced administrative tasks, and allowed me to focus more on creative aspects. This gradual integration demonstrated that embracing technology can enhance efficiency without compromising the personal touch.</p>
 </blockquote>
 <h3>1. Phase One: Exploration and Foundation (1-3 Months) ⭐</h3>
@@ -200,7 +200,7 @@
 <p>Remember that technology adoption is not a race. The goal is to enhance your unique strengths as a stylist, not to compete on technological sophistication alone. By following this gradual approach, you can harness AI's benefits while maintaining the human artistry and connection that are the true foundations of exceptional hairstyling.</p>
 <h2>V. Skills for the AI Era: Elevating Human Capabilities</h2>
 <p>As AI handles increasingly sophisticated analytical and predictive tasks, certain human capabilities become not less but more valuable. Understanding which skills to develop alongside technological adoption is crucial for thriving in the AI era. This section explores the human capabilities that complement rather than compete with AI, offering strategies for developing these skills to enhance your practice.</p>
-<blockquote class="styled-quote">
+<blockquote>
 <p>Recognizing that AI can handle certain analytical tasks, I focused on enhancing interpersonal skills and creative techniques that machines cannot replicate. For instance, I honed my ability to empathize with clients, understanding their emotions and desires, which is essential in delivering personalized services. In one case, combining AI-generated style suggestions with a deep conversation about a client's personal style led to a transformation that exceeded her expectations. This blend of technology and human touch resulted in a unique and satisfying experience, reinforcing the importance of skills that complement AI capabilities.</p>
 </blockquote>
 <h3>1. Emotional Intelligence and Intuitive Understanding ⭐</h3>
@@ -350,7 +350,7 @@
 <!-- AI in Virtual Consultations Block -->
 <div class="ai-module">
 <div class="module-header">
-<svg aria-hidden="true" class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<svg class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
 <rect fill="none" height="16" rx="2" stroke="#1797a6" stroke-width="1.5" width="16" x="4" y="4"></rect>
 <path d="M8 10L16 10M8 14L16 14" stroke="#1797a6" stroke-linecap="round" stroke-width="1.5"></path>
 <path d="M12 4V2M12 22V20" stroke="#1797a6" stroke-linecap="round" stroke-width="1"></path>
@@ -365,7 +365,7 @@
 <!-- AI for Personalized Recommendations Block -->
 <div class="ai-module">
 <div class="module-header">
-<svg aria-hidden="true" class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<svg class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
 <rect fill="none" height="16" rx="2" stroke="#1797a6" stroke-width="1.5" width="16" x="4" y="4"></rect>
 <path d="M8 10L16 10M8 14L12 14" stroke="#1797a6" stroke-linecap="round" stroke-width="1.5"></path>
 <path d="M4 12H2M22 12H20" stroke="#1797a6" stroke-linecap="round" stroke-width="1"></path>
@@ -380,7 +380,7 @@
 <!-- AI in Product Development Block -->
 <div class="ai-module">
 <div class="module-header">
-<svg aria-hidden="true" class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<svg class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
 <rect fill="none" height="16" rx="2" stroke="#1797a6" stroke-width="1.5" width="16" x="4" y="4"></rect>
 <path d="M8 10L16 10M8 14L16 14" stroke="#1797a6" stroke-linecap="round" stroke-width="1.5"></path>
 <circle cx="12" cy="12" r="2" stroke="#1797a6" stroke-width="1"></circle>
@@ -395,7 +395,7 @@
 <!-- Additional AI Applications Block -->
 <div class="ai-module">
 <div class="module-header">
-<svg aria-hidden="true" class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<svg class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
 <rect fill="none" height="16" rx="2" stroke="#1797a6" stroke-width="1.5" width="16" x="4" y="4"></rect>
 <path d="M12 8V16M8 12H16" stroke="#1797a6" stroke-linecap="round" stroke-width="1.5"></path>
 </svg>
@@ -409,7 +409,7 @@
 <!-- Action Plan Block -->
 <div class="ai-module">
 <div class="module-header">
-<svg aria-hidden="true" class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
+<svg class="module-icon" height="16" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
 <rect fill="none" height="16" rx="2" stroke="#1797a6" stroke-width="1.5" width="16" x="4" y="4"></rect>
 <path d="M8 12L10 14L16 8" stroke="#1797a6" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path>
 </svg>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8" />
   <title>Cultivating Resilience and Well-Being in Hairstyling</title>
@@ -69,7 +69,7 @@
 
     <p>Maya Smith's Story: Maya Smith, founder of The Doux, exemplifies a growth mindset. Building her brand meant staying true to her vision while navigating the complexities of entrepreneurship. Smith's approach has always been to view obstacles as catalysts for personal and professional growth. She believes in the power of authenticity, sharing her journey openly with her clients and community. This connection strengthens her brand's message of resilience and pride in individuality.</p>
 
-    <blockquote class="styled-quote">
+    <blockquote>
       <p>There was a time early in my career when a major setback almost derailed my confidence. I had invested months into a promotional campaign that, despite my best efforts, failed to generate the expected response. Instead of wallowing in disappointment, I reframed the experience as a vital learning opportunity. I spent countless hours analyzing what went wrong—from misaligned messaging to technical glitches—and gradually transformed my perspective.</p>
       
       <p>That setback taught me that each failure is a stepping stone, and embracing a growth mindset allowed me to refine my approach, ultimately leading to more innovative strategies and improved client interactions. This experience reshaped how I view challenges and solidified my belief in continuous learning.</p>
@@ -89,7 +89,7 @@
 
     <p>Real-World Example: Vernon François, a celebrity stylist known for his advocacy in textured hair care, credits goal-setting with helping him navigate the competitive beauty industry. Early in his career, François set specific goals to develop products that cater to diverse hair types, something he felt was missing in mainstream beauty. By focusing on his goal with purpose and clarity, he built a successful line of products that has changed the textured hair industry.</p>
 
-    <blockquote class="styled-quote">
+    <blockquote>
       <p>I vividly remember the time I decided to apply the SMART goal framework to boost my freelance business. I set a very clear objective: to increase my client bookings by 20% within six months. Breaking the goal down into specific, measurable, achievable, relevant, and time-bound steps, I crafted a plan that included targeted social media campaigns, a streamlined booking system, and follow-up routines for past clients.</p>
       
       <p>By monitoring my progress regularly, I not only met my target but exceeded it by reaching a 25% increase in bookings. This structured approach gave me the confidence to set and achieve meaningful goals, proving that clarity and discipline can transform aspirations into tangible successes.</p>
@@ -111,7 +111,7 @@
 
     <p>Case in Point: Hairstylist and educator Ted Gibson, known for his celebrity clients and salon success, openly credits his community for sustaining him throughout his career. After closing his salon in New York, Gibson joined industry groups and built a network of support, which he describes as invaluable to his resilience. He later reimagined his business in Los Angeles, offering virtual consultations, a shift inspired by his support network's insights and encouragement.</p>
 
-    <blockquote class="styled-quote">
+    <blockquote>
       <p>Building a supportive network has always been a goal of mine, and while I haven't yet established a dedicated community, I'm excited about the future. There was a time when I truly felt the need for a group of like-minded stylists to share insights and lift each other up. That experience has inspired me to create a space where we can all grow together.</p>
       
       <p>With the launch of this book, I look forward to starting a community—Curls n Contemp Collective—where we can exchange ideas, overcome challenges, and celebrate our successes. If you're reading this, I encourage you to sign up and be part of this emerging collective. Together, we'll build a network that supports our creative journeys and drives our industry forward.</p>
@@ -146,7 +146,7 @@
 
     <p>Inspiration from Experience: Celebrity hairstylist Tabatha Coffey, known for her work on TV shows like "Tabatha Takes Over," has spoken openly about her self-care practices. Coffey maintains that taking time to rest and recharge fuels her creativity and strengthens her resilience. She emphasizes that self-care is what enables her to handle high-stakes situations calmly and with a positive outlook.</p>
 
-    <blockquote class="styled-quote">
+    <blockquote>
       <p>After years of relentless work, there came a moment when burnout hit me hard—I was missing important family events, and my creative spark was fading. It was then that I realized self-care wasn't a luxury but a necessity. I began to incorporate practices like daily mindfulness meditation, regular physical exercise, and strict boundaries between work and personal time.</p>
       
       <p>One particularly transformative week, after forcing myself to take a full day off, I returned with renewed energy and a sharper focus on my craft. That turning point taught me that prioritizing self-care not only enhances my well-being but also elevates the quality of my work, proving that taking care of myself is integral to sustaining a vibrant, creative career.</p>
@@ -320,7 +320,7 @@
 
   <!-- QUIZ -->
   <hr role="doc-pagebreak" aria-label="Page break before quiz" class="page-break" />
-  <section class="quiz-container" epub:type="assessment" role="doc-assessment" role="doc-assessment" role="doc-assessment">
+  <section class="quiz-container" epub:type="assessment" role="doc-assessment">
     <div class="quiz-title">Quiz</div>
 
     <div class="quiz-question">
@@ -366,8 +366,8 @@
 
   <!-- WORKSHEET -->
   <hr role="doc-pagebreak" aria-label="Page break before worksheet" class="page-break" />
-  <section class="worksheet-page" epub:type="exercise" role="doc-exercise" role="doc-assessment" role="doc-assessment">
-   <div class="worksheet-page" role="doc-assessment" role="doc-assessment">
+  <section class="worksheet-page" epub:type="exercise" role="doc-exercise">
+   <div class="worksheet-page">
       <!-- Decorative top element - inspirational/sunburst inspired -->
       <svg class="decorative-top" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" fill="none">
         <path d="M60 5V25" stroke="#C9A668" stroke-width="1" stroke-opacity="0.7"/>
@@ -390,7 +390,7 @@
       <!-- Affirmation Lines -->
       <div class="affirmation-container">
         <div class="affirmation-line">
-          <svg aria-hidden="true" class="star-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+          <svg class="star-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
             <path d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z" fill="none" stroke="#1797a6" stroke-width="1.5"/>
           </svg>
           <div class="line-number">1.</div>
@@ -398,7 +398,7 @@
         </div>
         
         <div class="affirmation-line">
-          <svg aria-hidden="true" class="star-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+          <svg class="star-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
             <path d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z" fill="none" stroke="#1797a6" stroke-width="1.5"/>
           </svg>
           <div class="line-number">2.</div>
@@ -406,7 +406,7 @@
         </div>
         
         <div class="affirmation-line">
-          <svg aria-hidden="true" class="star-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+          <svg class="star-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
             <path d="M12 2L15 8L21 9L17 14L18 20L12 17L6 20L7 14L3 9L9 8L12 2Z" fill="none" stroke="#1797a6" stroke-width="1.5"/>
           </svg>
           <div class="line-number">3.</div>

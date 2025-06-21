@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Advancing Skills Through Continuous Education</title>
@@ -32,7 +32,7 @@
   </style>
 </head>
 
-<body epub:type="bodymatter" role="doc-chapter">
+<body epub:type="bodymatter" role="document">
   <!-- CHAPTER TITLE PAGE -->
   <header epub:type="titlepage" role="doc-titlepage">
     <div class="decorative-top-accent" aria-hidden="true"></div>
@@ -60,7 +60,7 @@
 
     <p>Whether you're a seasoned pro ready to rekindle your passion or a newcomer eager to make a mark, this chapter is your gateway to a life of professional reinvention and discovery. Together, let's unlock the endless possibilities that continuous education brings.</p>
 
-    <blockquote class="styled-quote">
+    <blockquote>
     <p>I recall a turning point early in my career when I attended an intensive workshop led by a master stylist whose innovative techniques reshaped my perspective on hairstyling. In that immersive environment, I not only learned advanced skills but also discovered the importance of infusing creativity into every cut and color. This experience ignited a passion for continual learning and experimentation, shifting my approach from simply following trends to developing my own signature style. It was a moment that reaffirmed my commitment to artistry and set me on a path toward a more inspired and authentic practice.</p>
     </blockquote>
 
@@ -154,7 +154,7 @@
       <li><strong>Build a Relationship Gradually:</strong> Begin by attending their workshops, joining their online courses, or following them on social media. Engaging with their content consistently can lead to organic mentorship.</li>
     </ul>
 
-    <blockquote class="styled-quote">
+    <blockquote>
     <p>Finding an industry mentor was a journey marked by both hesitation and breakthrough moments. Initially, I was intimidated by the idea of reaching out to someone I deeply admired, worried that my inexperience might be a barrier. However, once I took the plunge, I discovered that genuine connection transcends titles and credentials. Although scheduling conflicts and differing perspectives presented early challenges, my mentor's willingness to share insights and offer honest feedback transformed those obstacles into invaluable learning opportunities. My advice for anyone seeking mentorship is to approach the process with authenticity and persistence—don't be afraid to show vulnerability, as it is often the key to unlocking profound professional growth.</p>
     </blockquote>
 
@@ -436,7 +436,7 @@
       </tbody>
     </table>
 
-    <blockquote class="styled-quote">
+    <blockquote>
     <p>Continuous education has been a lifeline during moments when creativity waned and the pressures of the industry began to weigh me down. I vividly remember a time when the routine of daily work left me feeling uninspired, on the verge of creative burnout. In search of a fresh perspective, I enrolled in an advanced color theory course that introduced innovative techniques and reenergized my artistic vision. This new learning experience acted as a catalyst, reigniting my passion and challenging me to explore uncharted creative territories. It was a powerful reminder that embracing new knowledge can transform challenges into opportunities, ultimately restoring both my creative spirit and professional resilience.</p>
     </blockquote>
 

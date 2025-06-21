@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta charset="utf-8"/>
 <title>Crafting Enduring Legacies</title>
@@ -13,10 +13,10 @@
 <!-- Chapter-specific styling -->
 
 </head>
-<body epub:type="bodymatter">
+<body data-epub-type="bodymatter">
 <div class="ebook-container">
 <!-- CHAPTER TITLE PAGE -->
-<header epub:type="titlepage" role="doc-titlepage">
+<header data-epub-type="titlepage" role="doc-titlepage">
 <!-- Decorative Top Accent -->
 <div class="decorative-top-accent"></div>
 <!-- Roman Numeral - TOP CENTER -->
@@ -34,7 +34,7 @@
 </header>
 <!-- MAIN CHAPTER CONTENT -->
 <main role="main">
-<section class="chapter-content" epub:type="chapter" role="doc-chapter">
+<section class="chapter-content" data-epub-type="chapter" role="doc-chapter">
 <!-- Drop Cap Paragraph - goes directly after Introduction -->
 <p class="first-paragraph">
 <span class="dropcap">B</span>ut the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness, and self-control. Against such things there is no law.Galatians 5:22-23
@@ -42,7 +42,7 @@
 <!-- Main chapter content -->
         
  CHAPTER TITLE PAGE 
-<header epub:type="titlepage" role="doc-titlepage">
+<header data-epub-type="titlepage" role="doc-titlepage">
 <div class="decorative-top-accent"></div>
 <h2 class="chapter-number">X</h2>
 <div class="chapter-title-container">
@@ -55,10 +55,10 @@
 </div>
 </header>
  MAIN CONTENT 
-<section class="chapter-content" epub:type="chapter" role="doc-chapter">
+<section class="chapter-content" data-epub-type="chapter" role="doc-chapter">
 <p class="first"><span class="dropcap">C</span>onsider the impact of your work not just today, but as a legacy shaping the future of hairstyling artistry and entrepreneurship. Beyond technical skill, crafting a lasting legacy in this field depends on sustained well-being and the courage to invest in self-care. This chapter explores how hairstylists can prioritize their well-being to make their careers not only sustainable but also deeply fulfilling and inspirational for future generations.</p>
 <p>Imagine the scissors trembling in your hand, their familiar weight suddenly feeling foreign. Your reflection in the mirror stares back, a stranger behind the mask of a confident stylist. Beneath the surface, a storm of doubt, exhaustion, and pressure swirls—challenging your passion at every turn. This is the hidden battlefield of the hairstylist, where the joy of artistry is often in tension with the brutal demands of an unforgiving industry. It's easy to feel consumed by the relentless pace, where creativity and service intertwine, and the spark that once illuminated every move dims, worn down by the physical, mental, and emotional toll of giving so much of ourselves.</p>
-<blockquote class="styled-quote">There was a pivotal moment in my career when I was forced to confront my own mortality. After a particularly grueling week of back-to-back appointments, I experienced a brief health scare that left me shaken. In the midst of this vulnerability, a mentor reached out and shared a simple but profound truth: "Your art isn't confined to a single day's work—it's the legacy you leave behind." That conversation changed everything for me. I realized that while my daily client work was essential, I had the opportunity to build something far greater—a legacy that would inspire future generations of hairstylists. This new perspective shifted my focus from short-term success to long-term impact, motivating me to invest in mentorship, document my techniques, and contribute meaningfully to the industry.</blockquote>
+<blockquote>There was a pivotal moment in my career when I was forced to confront my own mortality. After a particularly grueling week of back-to-back appointments, I experienced a brief health scare that left me shaken. In the midst of this vulnerability, a mentor reached out and shared a simple but profound truth: "Your art isn't confined to a single day's work—it's the legacy you leave behind." That conversation changed everything for me. I realized that while my daily client work was essential, I had the opportunity to build something far greater—a legacy that would inspire future generations of hairstylists. This new perspective shifted my focus from short-term success to long-term impact, motivating me to invest in mentorship, document my techniques, and contribute meaningfully to the industry.</blockquote>
 <p>Yet, for hairstylists, true self-care is not a luxury but a necessity—a pillar of creating a legacy that endures. Consider the inspiration of brands like Olaplex and Mielle Organics. Olaplex, a trailblazer in hair health, transformed the industry by pioneering bond-repair technology, redefining how stylists approach hair care with innovation and science. For stylists, Olaplex stands as a symbol of progress and resilience.<sup>1</sup> Mielle Organics, led by Monique Rodriguez, exemplifies a holistic, community-centered approach, particularly within the Black community. Mielle's natural ingredients celebrate textured hair, embracing and honoring diversity—a testament to how brands can have a profound impact by aligning with the values of their communities.<sup>2</sup></p>
 <p>As we explore self-care, resilience, and legacy-building, let these brands be a reminder: resilience, purpose, and a commitment to authenticity create an impact that extends beyond ourselves. By embracing self-care as an essential part of our craft, we ensure our own well-being and deepen the legacy we leave for others. Join this journey of self-care mastery, reconnecting with your core needs, prioritizing growth, and crafting an enduring legacy, one rooted not just in skill but in the depth of fulfillment and joy you bring to every client and moment.</p>
 <h2>Legacy Building Timeline: A Phased Approach</h2>
@@ -105,7 +105,7 @@
 <li>Invest in Anti-Fatigue Mats and Adjustable Equipment: Much like how Olaplex protects hair integrity, these investments help protect your physical integrity over the long term.</li>
 </ul>
 <h3>2. Implementing Preventative Therapeutic Massage and Mobility Routines</h3>
-<blockquote class="styled-quote">For years, the physical toll of long days on my feet and the repetitive motions inherent in freelance hairstyling began manifesting as chronic shoulder and back pain. I vividly remember the day when the discomfort became so intense that I nearly canceled several client sessions. A trusted colleague recommended I try regular therapeutic massage as a preventative measure. Although I was hesitant at first, I soon discovered that these sessions did more than just alleviate pain—they restored my energy, improved my posture, and sparked a renewed level of creative clarity. Embracing this practice transformed my physical well-being and has been key to sustaining my career longevity, proving that caring for my body is just as important as refining my craft.</blockquote>
+<blockquote>For years, the physical toll of long days on my feet and the repetitive motions inherent in freelance hairstyling began manifesting as chronic shoulder and back pain. I vividly remember the day when the discomfort became so intense that I nearly canceled several client sessions. A trusted colleague recommended I try regular therapeutic massage as a preventative measure. Although I was hesitant at first, I soon discovered that these sessions did more than just alleviate pain—they restored my energy, improved my posture, and sparked a renewed level of creative clarity. Embracing this practice transformed my physical well-being and has been key to sustaining my career longevity, proving that caring for my body is just as important as refining my craft.</blockquote>
 <p>Your hands are your livelihood, your arms and shoulders the conduits of your creativity. Yet how often do you tend to these crucial instruments with the same care and attention you lavish on your clients' hair? In addition to optimizing our physical environment, hairstylists can benefit greatly from implementing preventative therapeutic practices, such as massage and mobility routines. Regular massage sessions can help alleviate muscle tension, improve circulation, and promote relaxation, while targeted mobility exercises can enhance flexibility, strength, and overall physical resilience. Imagine ending each week with a deep tissue massage, feeling the knots of tension melt away under skilled hands that understand the unique strains of your profession.</p>
 <p><strong>Actionable Steps ⏱️:</strong></p>
 <ol>
@@ -146,7 +146,7 @@
 <li>Limit Digital Distractions: On your inspiration days, minimize screen time and digital distractions. Focus on activities that engage your senses and encourage deep reflection.</li>
 </ol>
 <h3>3. Structuring Work-Life Boundaries for Rejuvenation Cycles</h3>
-<blockquote class="styled-quote">There was a time when work consumed every moment of my day. I recall one weekend all too clearly: I sacrificed a long-planned family celebration because last-minute client requests pulled me away from personal time. The ensuing disappointment and burnout served as a harsh wake-up call. I realized that without clear boundaries, my passion for hairstyling was at risk of being overwhelmed by constant stress. Determined to reclaim my creative energy, I began setting strict work-life boundaries—scheduling dedicated downtime, disconnecting from work emails, and reserving time solely for personal pursuits. This small but significant change revitalized my spirit, restored my creativity, and ultimately made me a more effective and fulfilled hairstylist.</blockquote>
+<blockquote>There was a time when work consumed every moment of my day. I recall one weekend all too clearly: I sacrificed a long-planned family celebration because last-minute client requests pulled me away from personal time. The ensuing disappointment and burnout served as a harsh wake-up call. I realized that without clear boundaries, my passion for hairstyling was at risk of being overwhelmed by constant stress. Determined to reclaim my creative energy, I began setting strict work-life boundaries—scheduling dedicated downtime, disconnecting from work emails, and reserving time solely for personal pursuits. This small but significant change revitalized my spirit, restored my creativity, and ultimately made me a more effective and fulfilled hairstylist.</blockquote>
 <p>As passionate professionals, it's easy to blur the lines between work and personal life, leading to overwork, exhaustion, and a diminished sense of joy and purpose. By structuring clear work-life boundaries and prioritizing regular rejuvenation cycles, we can sustain our creative energy and avoid the pitfalls of burnout. Imagine ending your workday with a clear mind, leaving your professional concerns at the salon door. Picture having evenings and weekends free to pursue hobbies, spend time with loved ones, or simply rest without feeling guilty or anxious about work. This balance isn't just good for your personal life—it's essential for maintaining the enthusiasm and creativity that drew you to hairstyling in the first place.</p>
 <p><strong>Actionable Steps ⏱️:</strong></p>
 <ol>
@@ -188,7 +188,7 @@
 </ol>
 <h2>IV. Establishing Sustainable Operations for Legacy Preservation</h2>
 <h3>1. Implementing Automated Financial Tracking and Projection Systems</h3>
-<blockquote class="styled-quote">For a long time, managing my finances felt like navigating a chaotic maze—endless spreadsheets, scattered receipts, and the constant stress of missed deadlines. Each month, keeping up with bills and managing cash flow left me feeling overwhelmed and uncertain about my future as a freelance artist. After many sleepless nights, I decided it was time to regain control. I invested in an automated financial system, a transition that wasn't without its challenges as I learned new software and restructured my routines. However, once the system was in place, it brought remarkable clarity and order to my financial life. The stress dissipated, replaced by newfound confidence and the freedom to focus on what I love most—my artistry. This shift not only fueled my business growth but also reinforced that structure and automation are powerful tools in achieving long-term success.</blockquote>
+<blockquote>For a long time, managing my finances felt like navigating a chaotic maze—endless spreadsheets, scattered receipts, and the constant stress of missed deadlines. Each month, keeping up with bills and managing cash flow left me feeling overwhelmed and uncertain about my future as a freelance artist. After many sleepless nights, I decided it was time to regain control. I invested in an automated financial system, a transition that wasn't without its challenges as I learned new software and restructured my routines. However, once the system was in place, it brought remarkable clarity and order to my financial life. The stress dissipated, replaced by newfound confidence and the freedom to focus on what I love most—my artistry. This shift not only fueled my business growth but also reinforced that structure and automation are powerful tools in achieving long-term success.</blockquote>
 <p>For a freelance hairstylist, achieving sustainability means implementing streamlined systems for managing finances and growth. Much like Olaplex set new standards in the hair industry with its innovative bond-repair technology, integrating financial tools like QuickBooks or Xero can set new standards for how stylists approach their business. These tools allow you to track expenses, monitor income, and make informed business decisions that contribute to long-term stability and success. Just as Olaplex has built a legacy of trust through precision and science, hairstylists can build their own legacy through diligent, data-driven financial practices.<sup>7</sup></p>
 <p><strong>Actionable Steps ⚡:</strong></p>
 <ul>
@@ -236,7 +236,7 @@
 </section>
  ENDNOTES 
 <hr aria-label="Page break before endnotes" class="page-break" role="doc-pagebreak"/>
-<section class="endnotes" epub:type="endnotes" role="doc-endnotes">
+<section class="endnotes" data-epub-type="endnotes" role="doc-endnotes">
 <h2>Endnotes</h2>
 <div class="endnote">1. James Dyson, "How Olaplex Revolutionized Hair Repair," 2020, accessed March 8, 2025, https://www.olahpex.com.</div>
 <div class="endnote">2. Mielle Organics, "Our Story: Celebrating Natural Beauty," 2021, accessed March 8, 2025, https://www.mielleorganics.com.</div>
@@ -248,7 +248,7 @@
 </section>
  QUIZ 
 <hr aria-label="Page break before quiz" class="page-break" role="doc-pagebreak"/>
-<section class="quiz-container" epub:type="assessment" role="doc-assessment">
+<section class="quiz-container" data-epub-type="assessment" role="doc-assessment">
 <div class="quiz-title">Chapter Quiz</div>
 <div class="quiz-question">
 <div class="question-number">1. What is a key component of crafting a compelling vision in hairstyling leadership?</div>
@@ -288,7 +288,7 @@
 </div>
 </section>
 <hr aria-label="Page break before worksheet" class="page-break" role="doc-pagebreak"/>
-<section class="worksheet-page" epub:type="exercise" role="doc-exercise">
+<section class="worksheet-page" data-epub-type="exercise" role="doc-exercise">
 <div class="worksheet-page">
 <div class="decorative-top-accent"></div>
 <!-- Title -->
@@ -667,7 +667,7 @@
 <!-- End of worksheet page -->
 <!-- CLOSING IMAGE -->
 <hr aria-label="Page break before chapter image" class="page-break" role="doc-pagebreak"/>
-<footer class="image-container" epub:type="backmatter" role="doc-backmatter">
+<footer class="image-container" data-epub-type="backmatter" role="doc-backmatter">
 <a class="chapter-image-link" href="#">
 <img alt="'Thrive in the beauty industry by cultivating not just client relationships, but a community of creativity and care.' — Michael David" class="chapter-image" src="images/Chapter-X-quote.png"/>
 </a>
