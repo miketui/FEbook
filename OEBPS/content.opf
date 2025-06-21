@@ -1,3 +1,4 @@
+<artifact type="application/vnd.ant.code" language="xml">
 <?xml version="1.0" encoding="UTF-8"?>
 <package version="3.0"
          xmlns="http://www.idpf.org/2007/opf"
@@ -5,7 +6,7 @@
          prefix="rendition: http://www.idpf.org/vocab/rendition/#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">urn:uuid:9fa5e2ef-5fd8-4f5b-9077-0b9e856cda3d</dc:identifier>
-    <dc:title>Curls &amp; Contemplation: A Stylist’s Interactive Journey Journal</dc:title>
+    <dc:title>Curls &amp; Contemplation: A Stylist's Interactive Journey Journal</dc:title>
     <dc:creator id="creator">MD Warren</dc:creator>
     <dc:language>en-US</dc:language>
     <dc:publisher>MD Warren</dc:publisher>
@@ -43,22 +44,22 @@
     <item id="item25" href="25-Chapter-XIV-The-Impact-of-AI-on-the-Beauty-Industry.xhtml" media-type="application/xhtml+xml"/>
     <item id="item26" href="26-Chapter-XV-Cultivating-Resilience-and-Well-Being-in-Hairstyling.xhtml" media-type="application/xhtml+xml"/>
     <item id="item27" href="27-Chapter-XVI-Tresses-and-Textures-Embracing-Diversity-in-Hairstyling.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item28" href="28Conclusion.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item29" href="29QuizKey.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item30" href="30SelfAssessment.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item31" href="31AffirmationsClose.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item32" href="32ContinuedLearningCommitment.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item33" href="33Acknowledgments.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item34" href="34AbouttheAuthor.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item35" href="35CurlsContempCollective.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item36" href="36JournalingStart.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item37" href="37ManifestingJournal.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item38" href="38JournalPage.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item39" href="39ProfessionalDevelopment.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item40" href="40SMARTGoals.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item41" href="41SelfCareJournal.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item42" href="42VisionJournal.xhtml" media-type="application/xhtml+xml"/>
-    <item id="item43" href="43DoodlePage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item28" href="28-Conclusion.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item29" href="29-QuizKey.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item30" href="30-SelfAssessment.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item31" href="31-AffirmationsClose.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item32" href="32-ContinuedLearningCommitment.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item33" href="33-Acknowledgments.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item34" href="34-AbouttheAuthor.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item35" href="35-CurlsContempCollective.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item36" href="36-JournalingStart.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item37" href="37-ManifestingJournal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item38" href="38-JournalPage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item39" href="39-ProfessionalDevelopment.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item40" href="40-SMARTGoals.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item41" href="41-SelfCareJournal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item42" href="42-VisionJournal.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item43" href="43-DoodlePage.xhtml" media-type="application/xhtml+xml"/>
     <item id="item44" href="44-bibliography.xhtml" media-type="application/xhtml+xml"/>
 
     <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
@@ -145,3 +146,4 @@
     <itemref idref="item44"/>
   </spine>
 </package>
+</artifact>
