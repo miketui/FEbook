@@ -1,8 +1,10 @@
+<artifact type="application/vnd.ant.code" language="xml">
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
 <head>
   <meta charset="UTF-8"/>
   <title>Table of Contents</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
   <nav epub:type="toc" id="toc">
@@ -54,5 +56,16 @@
       <li><a href="44-bibliography.xhtml">Bibliography</a></li>
     </ol>
   </nav>
+  
+  <nav epub:type="landmarks" hidden="hidden">
+    <h2>Guide</h2>
+    <ol>
+      <li><a epub:type="titlepage" href="1-TitlePage.xhtml">Title Page</a></li>
+      <li><a epub:type="copyright-page" href="2-Copyright.xhtml">Copyright</a></li>
+      <li><a epub:type="toc" href="3-TableOfContents.xhtml">Table of Contents</a></li>
+      <li><a epub:type="bodymatter" href="9-Chapter-I-Unveiling-Your-Creative-Odyssey.xhtml">Start of Content</a></li>
+    </ol>
+  </nav>
 </body>
 </html>
+</artifact>
