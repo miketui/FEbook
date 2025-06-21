@@ -1,64 +1,48 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-echo "💾  Updating apt lists…"
+#── prerequisites ───────────────────────────────────────────────────────────────
 apt-get update -y
-
-echo "📦  Installing system packages…"
 apt-get install -y --no-install-recommends \
-  ca-certificates \
-  libfontconfig1 \
-  bzip2 \
-  curl \
-  gnupg
+  ca-certificates libfontconfig1 bzip2 curl gnupg python3 python3-pip
 
-# ── Node.js 18 LTS ─────────────────────────────────────────────────────────────
+#── Node.js (18 LTS) ────────────────────────────────────────────────────────────
 if ! command -v node &>/dev/null; then
-  echo "⬇️  Installing Node.js 18 LTS…"
   curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
   apt-get install -y --no-install-recommends nodejs
 fi
 
-# ── html-lint + CommonJS-compatible chalk ──────────────────────────────────────
-echo "⬇️  Installing chalk@4 and html-lint…"
+#── html-lint & compatible chalk (CJS) ──────────────────────────────────────────
 npm install -g chalk@4 html-lint
 
-# defensive check
-if ! command -v html-lint &>/dev/null; then
-  echo "❌  html-lint installation failed" >&2
-  exit 1
-fi
-
-# create a wrapper that guarantees the temp folder exists
+# Wrapper to ensure html-lint has a writable temp directory
 HTML_LINT_REAL="$(command -v html-lint)"
-cat >/usr/local/bin/html-lint-safe <<'WRAP'
+cat >/usr/local/bin/html-lint-safe <<EOF
 #!/usr/bin/env bash
 set -euo pipefail
-DIR="$(pwd)"
-mkdir -p "$DIR/temp"
-exec '"'"$HTML_LINT_REAL"'"' "$@"
-WRAP
+mkdir -p "\$(pwd)/temp"
+exec "$HTML_LINT_REAL" "\$@"
+EOF
 chmod +x /usr/local/bin/html-lint-safe
 
-echo "✔️  html-lint ready (wrapper: html-lint-safe)"
-
-# ── PhantomJS (for other tools) ────────────────────────────────────────────────
-PHANTOM_VER="2.1.1"
-PHANTOM_URL="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-${PHANTOM_VER}-linux-x86_64.tar.bz2"
+#── PhantomJS ──────────────────────────────────────────────────────────────────
+PHANTOM_VER=2.1.1
 TMPDIR="$(mktemp -d)"
-
-echo "🕶️  Downloading PhantomJS ${PHANTOM_VER}…"
-curl -L --fail "$PHANTOM_URL" -o "${TMPDIR}/phantomjs.tar.bz2"
-
-echo "📦  Extracting PhantomJS…"
-tar -xjf "${TMPDIR}/phantomjs.tar.bz2" -C "${TMPDIR}"
+curl -L --fail \
+  "https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-${PHANTOM_VER}-linux-x86_64.tar.bz2" \
+  -o "${TMPDIR}/phantomjs.tar.bz2"
+tar -xjf "${TMPDIR}/phantomjs.tar.bz2" -C "$TMPDIR"
 install -Dm755 "${TMPDIR}/phantomjs-${PHANTOM_VER}-linux-x86_64/bin/phantomjs" /usr/local/bin/phantomjs
+rm -rf "$TMPDIR"
 
-if ! command -v phantomjs &>/dev/null; then
-  echo "❌  PhantomJS install failed" >&2
-  exit 1
-fi
-echo "✔️  PhantomJS installed: $(phantomjs --version)"
+#── Python chapter fixes ────────────────────────────────────────────────────────
+python3 fix_chapters.py
 
-rm -rf "${TMPDIR}"
-echo "✅  Environment ready: use \`html-lint-safe <file>\` (or npx with chalk@4) without crashes."
+#── Lint verification ──────────────────────────────────────────────────────────
+echo "🔍  Running html-lint on all XHTML chapters…"
+for f in OEBPS/*.xhtml; do
+  echo "→ $f"
+  html-lint-safe "$f"
+done
+
+echo "✅  All chapters passed html-lint and were updated successfully."
