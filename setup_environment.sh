@@ -30,14 +30,14 @@ fi
 #    You might need to check if pandoc is available or provide installation steps if it's not.
 echo "3. Checking for essential external tools..."
 
-# Check for pandoc (highly recommended for robust Markdown to EPUB workflows)
-if ! command -v pandoc &> /dev/null
-then
-    echo "   Warning: 'pandoc' command not found."
-    echo "   'pandoc' is highly recommended for robust Markdown conversion."
-    echo "   Please install it manually if needed (e.g., 'sudo apt-get install pandoc' on Linux)."
+# Check for pandoc (used for conversions to DOCX)
+if ! command -v pandoc &> /dev/null; then
+    echo "   'pandoc' not found. Installing via apt-get..."
+    apt-get update -y >/dev/null
+    apt-get install -y pandoc >/dev/null
+    echo "   pandoc installed: $(pandoc --version | head -n 1)"
 else
-    echo "   'pandoc' found: $(pandoc --version | head -n 1)"
+    echo "   pandoc found: $(pandoc --version | head -n 1)"
 fi
 
 # You might also want to check for epubcheck, a crucial EPUB validator
