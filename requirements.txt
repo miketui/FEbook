@@ -16,3 +16,36 @@ flake8 # code style checks
 
 # Testing framework
 pytest # run unit tests
+
+# Frontend dependencies (existing)
+# These will remain for the React app
+
+# Core AI Processing Dependencies
+openai>=1.0.0
+tiktoken>=0.5.0
+numpy>=1.24.0
+pandas>=2.0.0
+Pillow>=10.0.0
+python-dotenv>=1.0.0
+
+# Document Processing
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+pytesseract>=0.3.10
+
+# Web Scraping and Research
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+lxml>=4.9.0
+
+# Image Processing and AI
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+clip-by-openai>=1.0
+
+# Async Processing
+asyncio-mqtt>=0.13.0
+aiofiles>=23.0.0

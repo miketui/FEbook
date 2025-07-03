@@ -1,11 +1,20 @@
-# Hair Portfolio Generator 💇‍♀️✨
+# Creative Portfolio AI Generator 🎨✨
 
-A modern, beautiful web application designed specifically for hair stylists and professionals to create stunning portfolios that showcase their work and attract new clients.
+An advanced AI-powered portfolio generator designed for creative professionals including hair stylists, makeup artists, photographers, and more. Features cutting-edge AI technology for content generation, profession detection, and personalized recommendations.
 
 ## 🌟 Features
 
-### 📸 **Image Upload & Management**
-- **Drag & Drop Interface**: Simply drag your hair work photos into the upload area
+### 🤖 **AI-Powered Portfolio Enhancement**
+- **Intelligent Profession Detection**: Automatically detects your profession from text descriptions
+- **AI Content Generation**: Creates professional bios, service descriptions, and about sections
+- **Smart Template Recommendations**: AI suggests optimal templates and color schemes
+- **Content Analysis**: Analyzes and enhances existing portfolio content
+- **Real-time Processing**: Fast AI processing with progress tracking
+- **Multiple Profession Support**: Hairstylists, Makeup Artists, Photographers, Fashion Stylists, Nail Artists, Estheticians
+
+### 📸 **Advanced Image Management**
+- **Drag & Drop Interface**: Simply drag your work photos into the upload area
+- **AI Image Analysis**: GPT-4 Vision analyzes images for style, quality, and content
 - **Multiple File Support**: Upload multiple images at once (JPG, PNG, WebP)
 - **Image Preview**: See thumbnails of all uploaded work
 - **Easy Removal**: Remove unwanted images with a single click
@@ -39,22 +48,60 @@ A modern, beautiful web application designed specifically for hair stylists and 
 
 ### Prerequisites
 - Node.js (version 14 or higher)
+- Python 3.8 or higher
 - npm or yarn package manager
+- OpenAI API key (for AI features)
 
-### Installation
+### Quick Start (Automated)
 
 1. **Clone or download the project**
-2. **Install dependencies**:
+
+2. **Get your OpenAI API key** from [https://platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+
+3. **Run the automated startup script**:
+   ```bash
+   python start_portfolio_ai.py
+   ```
+
+The script will:
+- Check all dependencies
+- Install required packages
+- Set up the environment
+- Start both frontend and backend services
+- Open the application at `http://localhost:3000`
+
+### Manual Setup
+
+If you prefer manual setup:
+
+1. **Install Python dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   pip install -r requirements_api.txt
+   ```
+
+2. **Install Node.js dependencies**:
    ```bash
    npm install
    ```
 
-3. **Start the development server**:
+3. **Configure environment**:
+   ```bash
+   cp .env.example .env
+   # Edit .env file and add your OpenAI API key
+   ```
+
+4. **Start the backend API**:
+   ```bash
+   python api_interface.py
+   ```
+
+5. **Start the frontend** (in a new terminal):
    ```bash
    npm run dev
    ```
 
-4. **Open your browser** and navigate to `http://localhost:3000`
+6. **Open your browser** and navigate to `http://localhost:3000`
 
 ## 💡 How to Use
 

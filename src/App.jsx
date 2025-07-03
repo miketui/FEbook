@@ -5,7 +5,8 @@ import BioSection from './components/BioSection'
 import SocialLinks from './components/SocialLinks'
 import ContactInfo from './components/ContactInfo'
 import Preview from './components/Preview'
-import { User, Camera, Link, Phone, Eye } from 'lucide-react'
+import AIProcessor from './components/AIProcessor'
+import { User, Camera, Link, Phone, Eye, Brain } from 'lucide-react'
 
 function App() {
   const [portfolioData, setPortfolioData] = useState({
@@ -25,7 +26,9 @@ function App() {
       phone: '',
       location: '',
       salon: ''
-    }
+    },
+    aiEnhanced: false,
+    aiGenerated: null
   })
 
   const [activeTab, setActiveTab] = useState('upload')
@@ -42,8 +45,23 @@ function App() {
     { id: 'bio', label: 'Bio & Profile', icon: User },
     { id: 'social', label: 'Social Links', icon: Link },
     { id: 'contact', label: 'Contact Info', icon: Phone },
+    { id: 'ai', label: 'AI Enhancement', icon: Brain },
     { id: 'preview', label: 'Preview', icon: Eye }
   ]
+
+  const handleAIResults = (aiData) => {
+    if (typeof aiData === 'object' && aiData.professional_profile) {
+      // Handle AI processing result
+      setPortfolioData(prev => ({
+        ...prev,
+        aiResults: aiData,
+        aiEnhanced: true
+      }))
+    } else {
+      // Handle enhanced portfolio data
+      setPortfolioData(aiData)
+    }
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-white to-purple-50">
@@ -104,6 +122,13 @@ function App() {
             <ContactInfo 
               contact={portfolioData.contact}
               onContactChange={(contact) => updatePortfolioData('contact', contact)}
+            />
+          )}
+          
+          {activeTab === 'ai' && (
+            <AIProcessor 
+              portfolioData={portfolioData}
+              onAIResults={handleAIResults}
             />
           )}
           
