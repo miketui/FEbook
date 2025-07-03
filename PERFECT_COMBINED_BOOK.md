@@ -611,6 +611,7 @@ Endnotes
 9. Byrdie, "An Interview with Celebrity Hairstylist Kim Kimble," Byrdie, 2017, https://www.byrdie.com/kim-kimble-interview.
 10. G. Escandon, "How Vernon François Went From Braiding Mops to Brand Founder," Modern Salon, May 25, 2021, https://www.modernsalon.com/article/121820/how-vernon-francois-went-from-braiding-mops-to-brand-founder.
 
+\newpage
 Chapter Quiz
 
 1. What is one key characteristic of "conscious hairstyling" as described in this chapter?
@@ -668,6 +669,7 @@ List goals such as building a client base, mastering advanced techniques, or adv
 
 Paste / Sketch here
 
+\newpage
 Download Vision Board Worksheet
 
 
@@ -858,6 +860,7 @@ Endnotes
 11. Allure, "Kim Kimble: Celebrating Natural Hair," 2018, https://www.allure.com/story/kim-kimble-interview.
 12. American Salon, "Career Development for Hairstylists," 2021, https://www.americansalon.com/career-development.
 
+\newpage
 Chapter Quiz
 
 1. Defining Mastery: What does "mastery" mean to you in your hairstyling career? List one or two areas (technical or creative) where you'd like to improve.
@@ -924,6 +927,7 @@ Please write three more lines to add to your affirmations creation:
 
 3.
 
+\newpage
 Download Mastery & Tool Care Worksheet
 
 
@@ -1051,6 +1055,7 @@ Endnotes
 7. Harper's Bazaar, "Vernon François: Redefining Beauty Standards," 2021, https://www.harpersbazaar.com/beauty/hair.
 8. Vogue, "Tokyo Stylez: The Journey of a Self-Taught Stylist," 2019, https://www.vogue.com/article/tokyo-stylez-interview.
 
+\newpage
 Quiz
 
 1. Which mindset shift can help stylists overcome creative lulls?
@@ -1103,6 +1108,7 @@ Alternative Thoughts
 
 Reframe your negative thoughts into more balanced, constructive alternatives. What would you tell a friend or colleague facing the same situation?
 
+\newpage
 Download Creative Reflection Worksheet
 
 
@@ -1394,6 +1400,7 @@ Endnotes
 8. Kristin Ess, "Beauty Independent Interview: Kristin Ess on Digital Networking," 2019, https://www.beautyindependent.com/kristin-ess-interview.
 9. European Hair Professionals, "The Hair Has No Gender Project: Fostering Inclusive Beauty," 2020, https://www.europeanhairpro.com/HHNG.
 
+\newpage
 Quiz
 
 1. Which of the following is NOT a typical benefit of networking in the hairstyling industry?
@@ -1476,6 +1483,7 @@ Knowledge Gained
 
 Post-Event Reflection:
 
+\newpage
 Download Networking Strategy Worksheet
 
 
@@ -1645,6 +1653,7 @@ Endnotes
 8. Vidal Sassoon and Michael O'Donnell, Vidal: The Autobiography (New York: Macmillan, 2010).
 9. European Hair Professionals, "The Hair Has No Gender Project: Fostering Inclusive Beauty," 2020, https://www.europeanhairpro.com/HHNG.
 
+\newpage
 Quiz
 
 1. What is a key benefit of mentorship for the hairstyling industry as a whole?
@@ -1679,7 +1688,9 @@ MENTORSHIP ROADMAP WORKSHEET
 
 This worksheet serves as a practical guide for readers who are looking to personalize their mentorship journey. Whether seeking a mentor, establishing goals as a mentee, or preparing to mentor others, this roadmap provides steps to clarify and track progress in building meaningful, impactful mentorship experiences.
 
+\newpage
 Instructions for Using the Worksheet:
+\newpage
 Reflect on each prompt thoughtfully, taking your time to identify what's most important for your personal and professional growth.
 Complete each section thoroughly, as this will help clarify your mentorship goals and guide your search for the right mentor or mentee.
 Revisit the worksheet periodically to adjust your goals, add new insights, and track your progress.
@@ -1981,6 +1992,7 @@ Endnotes
 9. Marquetta Breslin, "Building a Thriving Lace Wig Business," WWD, 2018, accessed March 8, 2025, https://wwd.com/beauty-industry-news/hair/marquetta-breslin-profile.
 10. Salon Business Journal, "Economic Resilience Strategies for Hairstylists," 2022, accessed March 8, 2025, https://www.salonbusinessjournal.com.
 
+\newpage
 Quiz
 
 1. What is the first step in mastering your finances as a hairstylist?
@@ -2080,6 +2092,7 @@ Identify your business's primary sources of revenue, such as service offerings, 
 Revenue Stream
 Description
 
+\newpage
 Download Business Model Canvas Worksheet
 
 
@@ -2307,6 +2320,7 @@ Endnotes
 6. Healthline, "Quick Self‑Care Tips," 2021, accessed March 8, 2025, https://www.healthline.com.
 7. Freelancers Union, "Health Insurance Options for Freelancers," 2023, accessed March 8, 2025, https://www.freelancersunion.org.
 
+\newpage
 Quiz
 
 1. Why is ergonomic workspace optimization important for hairstylists?
@@ -2338,7 +2352,9 @@ C) It's the only way to learn new skills and techniques
 D) It's a waste of time that takes away from client work
 
 REDEFINING SUCCESS THROUGH SELF-CARE
+\newpage
 Self-Care Experiment Worksheet
+\newpage
 
 1. Self-Care Activity Planning
 1. Self-Care Activity Planning
@@ -2718,6 +2734,7 @@ Endnotes
 16. Forbes, "How to Measure the ROI of Continuing Education," 2020, accessed March 8, 2025, https://www.forbes.com.
 17. Entrepreneur, "Time Management Tips for Busy Professionals," 2021, accessed March 8, 2025, https://www.entrepreneur.com.
 
+\newpage
 Quiz
 
 1. What is one of the key benefits of virtual academies and masterclasses for hairstylists?
@@ -2819,6 +2836,7 @@ Evening
 
 3.B. Strategy Adjustment Plan
 
+\newpage
 Download Continuous Education Worksheet
 
 
@@ -3105,6 +3123,7 @@ Endnotes
 6. Mark Granovetter, "The Strength of Weak Ties," American Journal of Sociology 79, no. 6 (1973): 1360–1380, accessed March 8, 2025, https://www.jstor.org/stable/2776392.
 7. Harvard Business Review, "The Power of Small Leadership Acts," 2020, accessed March 8, 2025, https://hbr.org.
 
+\newpage
 Chapter Quiz
 
 1. What is a key component of crafting a compelling vision in hairstyling leadership?
@@ -3218,6 +3237,7 @@ Does this vision align with my personal values and industry goals?
 Is my network sufficiently diverse to support my growth and innovation goals?
 Am I consistently dedicating time to improve my skills and adapt to changes in the industry?
 
+\newpage
 Download Leadership Vision Worksheet
 
 
@@ -3425,6 +3445,7 @@ Endnotes
 6. Jon Kabat‑Zinn, Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness (Delta, 1990).
 7. Intuit, "QuickBooks Online," 2023, accessed March 8, 2025, https://quickbooks.intuit.com.
 
+\newpage
 Chapter Quiz
 
 1. What is a key component of crafting a compelling vision in hairstyling leadership?
@@ -3617,6 +3638,7 @@ I have a clear sense of purpose that guides my professional decisions.
 My Self-Care Commitment
 Based on your reflections above, write a personal commitment statement outlining the specific self-care practices you will prioritize to ensure your sustainability and success as a hairstylist.
 
+\newpage
 Download Legacy & Self-Care Sustainability Worksheet
 
 
@@ -3847,6 +3869,7 @@ Endnotes
 6. Nielsen, "Global Trust in Advertising Report," 2021, accessed March 8, 2025, https://www.nielsen.com/us/en/insights/report/2021/global-trust-in-advertising/.
 7. HubSpot, "Marketing Automation Essentials," 2023, accessed March 8, 2025, https://www.hubspot.com.
 
+\newpage
 Chapter Quiz
 
 1. Which digital strategy is most appropriate for a stylist who has never used social media professionally before?
@@ -3959,6 +3982,7 @@ Use Google Analytics to assess visitor numbers and behavior
 Conversion Rates
 Measure bookings and inquiries generated from digital campaigns
 
+\newpage
 Download Digital Amplification Worksheet
 
 
@@ -4232,6 +4256,7 @@ Endnotes
 4. FreshBooks, "Why Cloud Accounting is Essential for Freelancers," 2023, accessed March 8, 2025, https://www.freshbooks.com/en-gb/cloud-accounting.
 5. Hairstylist Today, "How MoKnowsHair Leveraged Digital Platforms for Growth," March 10, 2021, accessed March 8, 2025, https://www.hairstylisttoday.com/moknowshair-digital-growth.
 
+\newpage
 Quiz – Financial Strategies and Sustainability
 
 1. What is one benefit of using cloud-based bookkeeping software?
@@ -4262,7 +4287,9 @@ B. Ignoring material and operating costs
 C. Calculating all service delivery costs for markup integrity
 D. Offering discounts without assessing cost implications
 
+\newpage
 Financial Stability and Growth Worksheet
+\newpage
 
 1. Financial Assessment: Where Are You Now?
 
@@ -4674,6 +4701,7 @@ Endnotes
 7. Naturtint, "Naturtint: Natural Hair Color Solutions," 2022, accessed March 8, 2025, https://www.naturtint.com/about-sustainability.
 8. Nelms, Nikki, "Transparency in Beauty: How Clear Pricing Builds Trust," Modern Salon, November 20, 2019, accessed March 8, 2025, https://www.modernsalon.com/transparency-in-beauty-nikki-nelms.
 
+\newpage
 Quiz
 
 1. Which of the following is an eco-friendly option for a salon environment?
@@ -4762,6 +4790,7 @@ Your Monitoring Plan:
 
 3.
 
+\newpage
 Download Ethics & Sustainability Worksheet
 
 
@@ -5048,6 +5077,7 @@ Endnotes
 12. Menzone Academy, "The Future of Hairstyling: How Courses are Evolving with Technology," December 2024, accessed March 8, 2025, https://menzoneacademy.com/blog/technology-evolution-in-hairstyling-courses/.
 13. Perfect Corp, "The Impact of Virtual Try-On Technology on Product Returns," 2023, accessed March 8, 2025, https://www.perfectcorp.com/business/resources/reports.
 
+\newpage
 Quiz – The Impact of AI on the Beauty Industry
 
 1. Which of the following is NOT a typical application of AI in the beauty industry?
@@ -5102,6 +5132,7 @@ Action Plan
 
 For each idea generated, outline initial steps needed to explore or implement the AI application, whether through training, partnering with brands, or experimenting with AI tools in your practice.
 
+\newpage
 Download AI in Hairstyling Worksheet
 
 
@@ -5319,6 +5350,7 @@ Endnotes
 7. U.S. Occupational Safety and Health Administration, "Ergonomics for Hairdressers," 2021, accessed March 8, 2025, https://www.osha.gov/ergonomics/hairdressers.
 8. U.S. Financial Literacy and Education Commission, "Financial Literacy and the Importance of an Emergency Fund," 2016, accessed March 8, 2025, https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service.
 
+\newpage
 Quiz
 
 1. What is the key benefit of a growth mindset for hairstylists?
@@ -5361,6 +5393,7 @@ Please complete three more of your custom affirmation to empower your resilience
 
 "Your resilience is your strength. Speak it into existence daily."
 
+\newpage
 Download Resilience Affirmation Worksheet
 
 
@@ -5593,6 +5626,7 @@ Endnotes
 14. Da Costa, Diane. "Texture Education: Beyond the Technical." Texture Press, 2020.
 15. Carr, Jackie. "Building a Curl-Centric Business in Unexpected Markets." Salon Business Strategies, October 2023, 34-38.
 
+\newpage
 Quiz
 
 1. Which factor does NOT contribute to hair texture diversity?
@@ -5866,6 +5900,7 @@ Back to Table of Contents
 # Affirmations Close
 
 Curls & Contemplation — Final Affirmation Worksheet
+\newpage
 
 Skip to Main Content
 
